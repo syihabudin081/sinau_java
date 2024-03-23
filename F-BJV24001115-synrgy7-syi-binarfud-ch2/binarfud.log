@@ -1,0 +1,44 @@
+Mar 24, 2024 5:59:36 AM com.company.BinarFudApp main
+INFO: 
+======= BinarFud =======
+
+Mar 24, 2024 5:59:36 AM com.company.BinarFudApp main
+INFO: 1. Lihat Menu
+Mar 24, 2024 5:59:36 AM com.company.BinarFudApp main
+INFO: 2. Pesan Makanan/Minuman
+Mar 24, 2024 5:59:36 AM com.company.BinarFudApp main
+INFO: 3. Konfirmasi dan Bayar
+Mar 24, 2024 5:59:36 AM com.company.BinarFudApp main
+INFO: 4. Keluar
+Mar 24, 2024 5:59:36 AM com.company.BinarFudApp main
+INFO: Pilih: 
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: ======= Menu =======
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: 1. Nasi Goreng - Rp15000.0
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: 2. Mie Goreng - Rp12000.0
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: 3. Ayam Goreng - Rp10000.0
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: 4. Ayam Bakar - Rp15000.0
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: 5. Ayam Sayur - Rp12000.0
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: 6. Es Teh - Rp5000.0
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp displayMenu
+INFO: 7. Es Jeruk - Rp6000.0
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp main
+INFO: 
+======= BinarFud =======
+
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp main
+INFO: 1. Lihat Menu
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp main
+INFO: 2. Pesan Makanan/Minuman
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp main
+INFO: 3. Konfirmasi dan Bayar
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp main
+INFO: 4. Keluar
+Mar 24, 2024 6:00:03 AM com.company.BinarFudApp main
+INFO: Pilih: 

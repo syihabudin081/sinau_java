@@ -1,0 +1,15 @@
+
+`
+java:S1854"CRemove this useless assignment to local variable "orderController".(¦ÿ»Ú8˜¹Îíæ1
+L
+java:S2440"/Remove this instantiation of "OrderController".(¦ÿ»Ú8™¹Îíæ1
+Q
+java:S1481"4Remove this unused "orderController" local variable.(¦ÿ»Ú8œ¹Îíæ1
+G	java:S106"+Replace this use of System.out by a logger.(’éĞ8¿Ğ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(‚çêÔ8¿Ğ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(éìŠæ8ÀĞ¸íæ1
+L	java:S106"+Replace this use of System.out by a logger.(é×ïïùÿÿÿÿ8ÀĞ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(í¦Ç¼8ÁĞ¸íæ1
+G	java:S106 "+Replace this use of System.out by a logger.(ØÔÙ«8ÁĞ¸íæ1
+G	java:S1060"+Replace this use of System.out by a logger.(»½õ¼8ÂĞ¸íæ1
+G	java:S1063"+Replace this use of System.out by a logger.(ôå¼ø8ÂĞ¸íæ1

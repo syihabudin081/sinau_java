@@ -1,0 +1,37 @@
+
+:
+java:S1118"Hide this public constructor.(°ª€ª8åîŞíæ1
+E
+java:S3010"#Remove this assignment of "orders".(Šã­ışÿÿÿÿ8çîŞíæ1
+C
+java:S3010"!Remove this assignment of "menu".(šˆ®­úÿÿÿÿ8çîŞíæ1
+F
+java:S3010"$Remove this assignment of "scanner".(ôÀŒóøÿÿÿÿ8èîŞíæ1
+W
+java:S2209"5Change this instance-reference to a static reference.(Šã­ışÿÿÿÿ8èîŞíæ1
+W
+java:S2209"5Change this instance-reference to a static reference.(šˆ®­úÿÿÿÿ8èîŞíæ1
+W
+java:S2209"5Change this instance-reference to a static reference.(ôÀŒóøÿÿÿÿ8èîŞíæ1
+G	java:S106"+Replace this use of System.out by a logger.(¡®–Ğ8êîŞíæ1
+L	java:S106"+Replace this use of System.out by a logger.(ôÊ¬Ûùÿÿÿÿ8ìîŞíæ1
+G	java:S106#"+Replace this use of System.out by a logger.(øûç½8ìîŞíæ1
+G	java:S106&"+Replace this use of System.out by a logger.(™¶ÊÑ8îîŞíæ1
+G	java:S106,"+Replace this use of System.out by a logger.(ÜÅÛ¶8îîŞíæ1
+L	java:S106."+Replace this use of System.out by a logger.(Û·úÀùÿÿÿÿ8ïîŞíæ1
+L	java:S1065"+Replace this use of System.out by a logger.(¡µËÆüÿÿÿÿ8ğîŞíæ1
+G	java:S1069"+Replace this use of System.out by a logger.(³ù±¤8ğîŞíæ1
+G	java:S106?"+Replace this use of System.out by a logger.(…û¯8ñîŞíæ1
+G	java:S106B"+Replace this use of System.out by a logger.(ªªÉ8óîŞíæ1
+G	java:S106D"+Replace this use of System.out by a logger.(¨£Ãò8óîŞíæ1
+L	java:S106E"+Replace this use of System.out by a logger.(çïñÉúÿÿÿÿ8óîŞíæ1
+G	java:S106F"+Replace this use of System.out by a logger.(Òß—ç8óîŞíæ1
+L	java:S106G"+Replace this use of System.out by a logger.(ÅĞã…úÿÿÿÿ8óîŞíæ1
+G	java:S106R"+Replace this use of System.out by a logger.(‡ÿ¿8ôîŞíæ1
+G	java:S106V"+Replace this use of System.out by a logger.(»½õ¼8õîŞíæ1
+„
+java:S4087f"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ÄËªŸÿÿÿÿÿ8÷îŞíæ1
+L	java:S106g"+Replace this use of System.out by a logger.(âÓ”èúÿÿÿÿ8úîŞíæ1
+L	java:S106i"+Replace this use of System.out by a logger.(‘¼³Âûÿÿÿÿ8ûîŞíæ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ûîŞíæ1

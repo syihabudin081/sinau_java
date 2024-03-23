@@ -1,0 +1,5 @@
+======= Payment Receipt =======
+Es Teh - 6x - Rp5000.0 = Rp30000.0
+Ayam Bakar - 4x - Rp15000.0 = Rp60000.0
+Ayam Goreng - 2x - Rp10000.0 = Rp20000.0
+Total Harga: Rp110000.0
