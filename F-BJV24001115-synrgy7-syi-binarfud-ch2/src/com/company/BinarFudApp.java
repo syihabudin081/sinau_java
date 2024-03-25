@@ -2,6 +2,7 @@
 package com.company;
 import com.company.controller.OrderController;
 import com.company.model.*;
+import com.company.service.OrderServiceImpl;
 import com.company.view.MenuView;
 
 import java.util.ArrayList;
@@ -10,14 +11,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class BinarFudApp {
-    private static final List<Orderable> menu = new ArrayList<>();
-    private static final List<Order> orders = new ArrayList<>();
     private static final Scanner scanner = new Scanner(System.in);
 
 
     public static void main(String[] args) {
-        initializeMenu();
-        OrderController orderController = new OrderController(orders, menu, scanner);
+        Data.initializeMenu();
+
+        OrderServiceImpl orderService = new OrderServiceImpl(new ArrayList<>(), Data.getMenu(), scanner);
+        OrderController orderController = new OrderController(orderService);
 
         boolean exit = false;
 
@@ -33,13 +34,13 @@ public class BinarFudApp {
                 int choice = scanner.nextInt();
                 switch (choice) {
                     case 1:
-                        MenuView.displayMenu(menu);
+                        MenuView.displayMenu();
                         break;
                     case 2:
-                        OrderController.placeOrder();
+                        orderController.placeOrder();
                         break;
                     case 3:
-                        OrderController.confirmAndPay();
+                        orderController.confirmAndPay();
                         break;
                     case 4:
                         exit = true;
@@ -56,16 +57,7 @@ public class BinarFudApp {
         scanner.close();
     }
 
-    private static void initializeMenu() {
-        menu.add(new Food("Nasi Goreng", 15000));
-        menu.add(new Food("Mie Goreng", 12000));
-        menu.add(new Food("Ayam Goreng", 10000));
-        menu.add(new Food("Ayam Bakar", 15000));
-        menu.add(new Food("Ayam Sayur", 12000));
-        menu.add(new Beverage("Es Teh", 5000));
-        menu.add(new Beverage("Es Jeruk", 6000));
 
-    }
 
 
 }

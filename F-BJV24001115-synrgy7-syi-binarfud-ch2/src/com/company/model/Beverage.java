@@ -1,19 +1,15 @@
 package com.company.model;
 
-public class Beverage implements Orderable {
-    private String name;
-    private double price;
-
-    public Beverage(String name, double price) {
-        this.name = name;
-        this.price = price;
+public class Beverage extends Product implements Orderable {
+    private String size;
+    public Beverage(String name, double price, String size) {
+        super(name, price);
+        this.size = size;
     }
-
-    public String getName() {
-        return name;
+    public String getSize() {
+        return size;
     }
-
-    public double getPrice() {
-        return price;
+    public void setSize(String size) {
+        this.size = size;
     }
 }

@@ -1,0 +1,12 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(ÜÅÛ¶8€ØÀµç1
+„
+java:S40871"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ÄËªŸÿÿÿÿÿ8ƒØÀµç1
+L	java:S1062"+Replace this use of System.out by a logger.(âÓ”èúÿÿÿÿ8ˆØÀµç1
+L	java:S1064"+Replace this use of System.out by a logger.(‘¼³Âûÿÿÿÿ8ˆØÀµç1
+S
+java:S1128"6Remove this unused import 'com.company.view.MenuView'.(­×÷8€¿Åµç1
+Y
+java:S1128"=Remove this unused import 'java.util.InputMismatchException'.(İ§18¿Åµç1
+H
+java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8“ØÀµç1

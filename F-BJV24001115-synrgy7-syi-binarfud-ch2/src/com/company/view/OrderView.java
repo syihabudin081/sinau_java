@@ -15,9 +15,9 @@ public class OrderView {
             double subtotal = price * quantity;
             System.out.println(item.getName() + " - " + quantity + "x - Rp" + price + " = Rp" + subtotal);
         }
-    }
-
-    public static void displayTotalPrice(double total) {
+        double total = orders.stream().mapToDouble(Order::calculateTotalPrice).sum();
         System.out.println("Total Harga: Rp" + total);
     }
+
+
 }
