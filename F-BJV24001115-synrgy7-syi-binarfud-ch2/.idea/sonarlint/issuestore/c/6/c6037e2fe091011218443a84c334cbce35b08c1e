@@ -4,4 +4,4 @@ java:S1118":Add a private constructor to hide the implicit public one.(Š­àùÿÿ
 G	java:S106
 "+Replace this use of System.out by a logger.(³ù±¤8£Ü”íæ1
 G	java:S106"+Replace this use of System.out by a logger.(…û¯8¥Ü”íæ1
-G	java:S106"+Replace this use of System.out by a logger.(ªªÉ8¦Ü”íæ1
+G	java:S106"+Replace this use of System.out by a logger.(ªªÉ8¦Ü”íæ1

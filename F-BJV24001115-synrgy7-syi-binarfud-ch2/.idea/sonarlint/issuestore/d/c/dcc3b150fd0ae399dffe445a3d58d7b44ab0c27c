@@ -1,5 +1,7 @@
 
 \
-java:S1118":Add a private constructor to hide the implicit public one.(ìüºùÿÿÿÿ8è›˜íæ1
-L	java:S106	"+Replace this use of System.out by a logger.(ÿ¢å£ûÿÿÿÿ8ê›˜íæ1
-G	java:S106"+Replace this use of System.out by a logger.(š×Û8ë›˜íæ1
+java:S1118":Add a private constructor to hide the implicit public one.(ìüºùÿÿÿÿ8”Å¡¶ç1
+U
+java:S1128"8Remove this unused import 'com.company.model.Orderable'.(·ˆĞ8ì¿¯¶ç1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8û¿¯¶ç1

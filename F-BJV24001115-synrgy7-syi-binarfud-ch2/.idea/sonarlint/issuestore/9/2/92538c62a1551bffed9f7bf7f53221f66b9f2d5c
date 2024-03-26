@@ -1,0 +1,11 @@
+
+W
+java:S1118
+":Add a private constructor to hide the implicit public one.(Ú¦Ì‰8àªŒ·ç1
+L	java:S106"+Replace this use of System.out by a logger.(ÞìÔêÿÿÿÿÿ8‘ñ“·ç1
+h
+java:S6201""FReplace this instanceof check and cast with 'instanceof Food foodItem'(ê˜ˆÞÿÿÿÿÿ8•ñ“·ç1
+G	java:S106$"+Replace this use of System.out by a logger.(Ÿí é8–ñ“·ç1
+p
+java:S6201%"NReplace this instanceof check and cast with 'instanceof Beverage beverageItem'(žÑÞšøÿÿÿÿ8—ñ“·ç1
+G	java:S106'"+Replace this use of System.out by a logger.(†Óóî8—ñ“·ç1

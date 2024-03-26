@@ -95,7 +95,6 @@ public class OrderServiceImpl implements OrderService {
             }
             double total = orders.stream().mapToDouble(Order::calculateTotalPrice).sum();
             writer.write("Total Harga: Rp" + total + "\n");
-            writer.close();
             System.out.println("Riwayat pesanan berhasil disimpan!");
         } catch (Exception e) {
             System.out.println("Gagal menyimpan riwayat pesanan!");

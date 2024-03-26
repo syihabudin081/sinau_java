@@ -6,6 +6,11 @@ import com.company.model.Orderable;
 import java.util.List;
 
 public class OrderView {
+
+    // Private constructor to hide the implicit public one
+    private OrderView() {}
+
+
     public static void displayOrderDetails(List<Order> orders) {
         System.out.println("=== Detail Pesanan ===");
         for (Order order : orders) {

@@ -9,6 +9,8 @@ import java.util.List;
 
 public class Data {
     private static final List<Orderable> menu = new ArrayList<>();
+    // Private constructor to hide the implicit public one
+    private Data() {}
 
     static void initializeMenu() {
         menu.add(new Food("Nasi Goreng", 15000));
@@ -31,14 +33,13 @@ public class Data {
         System.out.println("Menu:");
         for (int i = 0; i < menu.size(); i++) {
             Orderable item = menu.get(i);
-            if (item instanceof Food) {
-                Food foodItem = (Food) item;
+            if (item instanceof Food foodItem) {
                 System.out.println((i + 1) + ". " + foodItem.getName() + " - Rp" + foodItem.getPrice());
-            } else if (item instanceof Beverage) {
-                Beverage beverageItem = (Beverage) item;
+            } else if (item instanceof Beverage beverageItem) {
                 System.out.println((i + 1) + ". " + beverageItem.getName() + " (" + beverageItem.getSize() + ") - Rp" + beverageItem.getPrice());
             }
         }
     }
+
 
 }

@@ -1,3 +1,3 @@
 === Detail Pesanan ===
-Es Kuwut - 5x - Rp12000.0 = Rp60000.0
-Total Harga: Rp60000.0
+Es Kuwut - 15x - Rp12000.0 = Rp180000.0
+Total Harga: Rp180000.0

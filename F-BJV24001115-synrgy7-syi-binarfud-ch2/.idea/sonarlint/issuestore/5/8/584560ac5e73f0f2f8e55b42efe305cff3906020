@@ -1,12 +1,18 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ÜÅÛ¶8€ØÀµç1
+G	java:S106"+Replace this use of System.out by a logger.(¡®–Ğ8ê›Í¶ç1
+L	java:S106 "+Replace this use of System.out by a logger.(ôÊ¬Ûùÿÿÿÿ8ë›Í¶ç1
+G	java:S106%"+Replace this use of System.out by a logger.(øûç½8ì›Í¶ç1
+G	java:S106("+Replace this use of System.out by a logger.(™¶ÊÑ8ì›Í¶ç1
+G	java:S106."+Replace this use of System.out by a logger.(ÜÅÛ¶8í›Í¶ç1
+L	java:S1060"+Replace this use of System.out by a logger.(Û·úÀùÿÿÿÿ8î›Í¶ç1
+L	java:S1068"+Replace this use of System.out by a logger.(¡µËÆüÿÿÿÿ8ï›Í¶ç1
+G	java:S106?"+Replace this use of System.out by a logger.(¨£Ãò8ğ›Í¶ç1
+L	java:S106@"+Replace this use of System.out by a logger.(çïñÉúÿÿÿÿ8ñ›Í¶ç1
+G	java:S106A"+Replace this use of System.out by a logger.(Òß—ç8ñ›Í¶ç1
+L	java:S106B"+Replace this use of System.out by a logger.(ÅĞã…úÿÿÿÿ8ñ›Í¶ç1
+G	java:S106M"+Replace this use of System.out by a logger.(‡ÿ¿8ò›Í¶ç1
+G	java:S106Q"+Replace this use of System.out by a logger.(»½õ¼8ò›Í¶ç1
 „
-java:S40871"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ÄËªŸÿÿÿÿÿ8ƒØÀµç1
-L	java:S1062"+Replace this use of System.out by a logger.(âÓ”èúÿÿÿÿ8ˆØÀµç1
-L	java:S1064"+Replace this use of System.out by a logger.(‘¼³Âûÿÿÿÿ8ˆØÀµç1
-S
-java:S1128"6Remove this unused import 'com.company.view.MenuView'.(­×÷8€¿Åµç1
-Y
-java:S1128"=Remove this unused import 'java.util.InputMismatchException'.(İ§18¿Åµç1
-H
-java:S1068"+Remove this unused "scanner" private field.(Ù‘Ğ8“ØÀµç1
+java:S4087b"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ÄËªŸÿÿÿÿÿ8ó›Í¶ç1
+L	java:S106c"+Replace this use of System.out by a logger.(âÓ”èúÿÿÿÿ8õ›Í¶ç1
+L	java:S106e"+Replace this use of System.out by a logger.(‘¼³Âûÿÿÿÿ8ö›Í¶ç1
