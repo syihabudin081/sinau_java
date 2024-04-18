@@ -1,15 +1,9 @@
 
-L
-java:S2440"/Remove this instantiation of "OrderController".(úç•8¥•¾¶ç1
-G	java:S106"+Replace this use of System.out by a logger.(’éĞ8¿Ğ¸íæ1
-G	java:S106"+Replace this use of System.out by a logger.(‚çêÔ8¿Ğ¸íæ1
-G	java:S106"+Replace this use of System.out by a logger.(éìŠæ8ÀĞ¸íæ1
-L	java:S106"+Replace this use of System.out by a logger.(é×ïïùÿÿÿÿ8ÀĞ¸íæ1
-G	java:S106"+Replace this use of System.out by a logger.(í¦Ç¼8ÁĞ¸íæ1
-G	java:S106!"+Replace this use of System.out by a logger.(ØÔÙ«8ÁĞ¸íæ1
-R
-java:S2209("5Change this instance-reference to a static reference.(õ°ğ8¹ì¦¶ç1
-W
-java:S2209+"5Change this instance-reference to a static reference.(•ê¢Ñøÿÿÿÿ8¹ì¦¶ç1
-G	java:S1061"+Replace this use of System.out by a logger.(»½õ¼8ÂĞ¸íæ1
-G	java:S1064"+Replace this use of System.out by a logger.(ôå¼ø8ÂĞ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(’éĞ8¿Ğ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(‚çêÔ8¿Ğ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(éìŠæ8ÀĞ¸íæ1
+L	java:S106"+Replace this use of System.out by a logger.(é×ïïùÿÿÿÿ8ÀĞ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(í¦Ç¼8ÁĞ¸íæ1
+G	java:S106"+Replace this use of System.out by a logger.(ØÔÙ«8ÁĞ¸íæ1
+G	java:S106/"+Replace this use of System.out by a logger.(»½õ¼8ÂĞ¸íæ1
+G	java:S1062"+Replace this use of System.out by a logger.(ôå¼ø8ÂĞ¸íæ1

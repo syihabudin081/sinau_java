@@ -1,3 +1,5 @@
 === Detail Pesanan ===
-Es Kuwut - 15x - Rp12000.0 = Rp180000.0
-Total Harga: Rp180000.0
+ID Pesanan: 1365c834-49d9-45de-a2c3-c9b6d96819ee, Ayam Goreng - 4x - Rp10000.0 = Rp40000.0
+ID Pesanan: 2c2dd2e1-58ff-4a4c-83b1-336ad071bd6d, Es Kuwut - 10x - Rp12000.0 = Rp120000.0
+ID Pesanan: 33d53a15-6d48-4215-86a4-d6ea7f65aded, Rendang - 3x - Rp20000.0 = Rp60000.0
+Total Harga: Rp220000.0

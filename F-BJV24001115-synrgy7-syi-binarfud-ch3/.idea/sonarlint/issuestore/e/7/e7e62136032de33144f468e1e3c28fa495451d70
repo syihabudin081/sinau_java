@@ -1,0 +1,9 @@
+
+b
+java:S1192"LDefine a constant instead of duplicating this literal "Nasi Goreng" 3 times.(»ÿÏæ
+i
+java:S1450"SRemove the "menu" field and declare it as a local variable in the relevant methods.(Ó³š
+o
+java:S1450"ZRemove the "sysInBackup" field and declare it as a local variable in the relevant methods.(€ƒê>
+D
+java:S1068"/Remove this unused "sysInBackup" private field.(€ƒê>

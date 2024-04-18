@@ -1,13 +1,11 @@
 
 package com.company;
 import com.company.controller.OrderController;
-import com.company.model.*;
 import com.company.service.OrderServiceImpl;
-import com.company.view.MenuView;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class BinarFudApp {

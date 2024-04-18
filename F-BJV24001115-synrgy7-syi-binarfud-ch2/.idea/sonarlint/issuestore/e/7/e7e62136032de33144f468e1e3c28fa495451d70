@@ -1,0 +1,13 @@
+
+i
+java:S1192"LDefine a constant instead of duplicating this literal "Nasi Goreng" 3 times.(»ÿΟζ8μ—γξ1
+p
+java:S1450"SRemove the "menu" field and declare it as a local variable in the relevant methods.(Σ³8Ο—γξ1
+v
+java:S1450"ZRemove the "sysInBackup" field and declare it as a local variable in the relevant methods.(€ƒκ>8Χ—γξ1
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(τ’²Υϊÿÿÿÿ8Ά‘—γξ1
+M
+java:S5960*"+Remove this assertion from production code.(°«πγόÿÿÿÿ8Ά‘—γξ1
+K
+java:S1068"/Remove this unused "sysInBackup" private field.(€ƒκ>8ª‘—γξ1
