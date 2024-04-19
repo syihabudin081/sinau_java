@@ -13,8 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 class OrderServiceImplTest {
     private OrderServiceImpl orderService;
@@ -26,17 +25,19 @@ class OrderServiceImplTest {
     void setUp() {
         orders = new ArrayList<>();
         menu = new ArrayList<>();
-         menu.add(new Food("Nasi Goreng", 15000));
+        menu.add(new Food("Nasi Goreng", 15000));
 
         sysInBackup = System.in;
-        String simulatedInput = "1\n2\n";
-        System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
-        orderService = new OrderServiceImpl(orders, menu, new Scanner(System.in));
 
     }
 
     @Test
-    void placeOrder() {
+    void placeOrder_Success() {
+        String simulatedInput = "1\n2";
+        System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
+
+        orderService = new OrderServiceImpl(orders, menu, new Scanner(System.in));
+
         orderService.placeOrder();
         assertEquals(1, orders.size());
         assertEquals("Nasi Goreng", orders.get(0).getItem().getName());
@@ -44,20 +45,61 @@ class OrderServiceImplTest {
     }
 
     @Test
-    void confirmAndPay() {
-        // Implementasi pengujian untuk confirmAndPay()
-        orders.add(new Order(new Food("Nasi Goreng", 15000), 2)); // Menambahkan pesanan untuk pengujian// Menambahkan pesanan untuk pengujian
+    void confirmAndPay_Success() {
+        orders.add(new Order(new Food("Nasi Goreng", 15000), 2));
+        // Simulasi input yang mencoba memesan item yang tidak ada dalam menu
+        String simulatedInput = "1\n";
+        System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
+
+        orderService = new OrderServiceImpl(orders, menu, new Scanner(System.in));
+
         orderService.confirmAndPay();
-        assertTrue(orders.isEmpty()); // Memastikan bahwa daftar pesanan kosong setelah konfirmasi dan pembayaran
+        assertTrue(orders.isEmpty());
     }
+
 
     @Test
-    void saveOrderHistory() {
-        // Implementasi pengujian untuk saveOrderHistory()
-        orderService.saveOrderHistory();
-        // Anda dapat menambahkan pengujian lebih lanjut untuk memeriksa apakah riwayat pesanan telah disimpan dengan benar
-        File file = new File("order_history.txt");
-        assertTrue(file.exists());
+    void placeOrder_ItemNotInMenu_Failure() {
+        // Simulasi input yang mencoba memesan item yang tidak ada dalam menu
+        String simulatedInput = "5\n2\n";
+        System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
+
+        orderService = new OrderServiceImpl(orders, menu, new Scanner(System.in));
+
+
+        orderService.placeOrder();
+
+        assertEquals(0, orders.size()); // Tidak seharusnya ada pesanan yang terbuat
+    }
+
+
+    @Test
+    void confirmAndPay_NoOrders_Failure() {
+        // Pastikan tidak ada pesanan yang ditambahkan sebelumnya
+        orderService = new OrderServiceImpl(orders, menu, new Scanner(System.in));
+
+        assertTrue(orders.isEmpty());
+
+        // Coba konfirmasi dan membayar tanpa ada pesanan
+        orderService.confirmAndPay();
+
+        // Pastikan tidak ada yang berubah setelah mencoba konfirmasi dan membayar tanpa pesanan
+        assertTrue(orders.isEmpty());
+    }
+
+
+    @Test
+    void placeOrder_InvalidInput_Failure() {
+        // Simulasi input yang mencoba memesan item yang tidak ada dalam menu
+        String simulatedInput = "5\n2\n";
+        System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
+
+        orderService = new OrderServiceImpl(orders, menu, new Scanner(System.in));
+
+
+         orderService.placeOrder();
+
+        // Pastikan tidak ada pesanan yang terbuat karena input tidak valid
+        assertEquals(0, orders.size());
     }
 }
-

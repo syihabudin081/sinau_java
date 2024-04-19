@@ -1,4 +1,8 @@
 
 E	java:S106!"+Replace this use of System.out by a logger.(ŞìÔêÿÿÿÿÿ
+h
+java:S6201#"FReplace this instanceof check and cast with 'instanceof Food foodItem'(ê˜ˆŞÿÿÿÿÿ8âÈÉ®ï1
 E	java:S106%"+Replace this use of System.out by a logger.(»ÇÁıÿÿÿÿ
+p
+java:S6201&"NReplace this instanceof check and cast with 'instanceof Beverage beverageItem'(ÑŞšøÿÿÿÿ8ìÈÉ®ï1
 @	java:S106("+Replace this use of System.out by a logger.(ÏàœŒ

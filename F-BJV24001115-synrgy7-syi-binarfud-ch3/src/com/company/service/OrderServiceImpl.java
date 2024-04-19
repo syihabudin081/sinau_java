@@ -30,6 +30,13 @@ public class OrderServiceImpl implements OrderService {
         System.out.println("Pilih menu (masukkan nomor): ");
         try {
             int itemIndex = scanner.nextInt() - 1;
+
+            if (itemIndex < 0 || itemIndex >= menu.size()) {
+                System.out.println("Nomor menu tidak valid!");
+                return;
+            }
+
+
             Optional<Orderable> selectedItem = Optional.ofNullable(menu.get(itemIndex));
             if (selectedItem.isEmpty()) {
                 System.out.println("Menu tidak tersedia!");
@@ -37,6 +44,12 @@ public class OrderServiceImpl implements OrderService {
             }
 
             System.out.println("Masukkan jumlah pesanan: ");
+            if (!scanner.hasNextInt()) {
+                System.out.println("Input jumlah pesanan harus berupa angka!");
+                scanner.next(); // Clear the invalid input from scanner
+                return;
+            }
+
             int quantity = scanner.nextInt();
             if (quantity <= 0) {
                 System.out.println("Jumlah pesanan tidak valid!");
@@ -71,6 +84,7 @@ public class OrderServiceImpl implements OrderService {
         switch (choice) {
             case 1:
                 saveOrderHistory();
+                orders.clear();
                 break;
             case 2:
                 // Kembali ke menu utama
@@ -106,6 +120,7 @@ public class OrderServiceImpl implements OrderService {
             writer.write("Total Harga: Rp" + total + "\n");
             System.out.println("Riwayat pesanan berhasil disimpan!");
             orders.clear();
+
         } catch (IOException e) {
             System.out.println("Gagal menyimpan riwayat pesanan!");
         }
