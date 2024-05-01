@@ -1,0 +1,68 @@
+2024-04-24 23:22:54,645 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 91684 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-24 23:22:54,649 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 23:22:55,764 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 23:22:55,878 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 99 ms. Found 4 JPA repository interfaces.
+2024-04-24 23:22:56,755 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-24 23:22:56,769 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-24 23:22:56,773 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 23:22:56,774 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 23:22:56,943 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 23:22:56,946 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2217 ms
+2024-04-24 23:22:57,150 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 23:22:57,445 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a0e0886
+2024-04-24 23:22:57,447 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 23:22:57,519 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 23:22:57,630 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 23:22:57,704 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 23:22:58,134 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 23:22:59,990 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 23:22:59,995 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 23:23:00,386 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [D:\synrgy\sinau_java\Binarfud\target\classes\com\example\Binarfud\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.Binarfud.service.OrdersService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-04-24 23:23:00,387 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 23:23:00,391 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-04-24 23:23:00,398 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-04-24 23:23:00,403 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-04-24 23:23:00,428 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-24 23:23:00,472 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.Binarfud.controller.OrderController required a bean of type 'com.example.Binarfud.service.OrdersService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.Binarfud.service.OrdersService' in your configuration.
+
+2024-04-24 23:24:42,835 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 45532 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-24 23:24:42,841 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 23:24:44,169 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 23:24:44,299 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 110 ms. Found 4 JPA repository interfaces.
+2024-04-24 23:24:45,702 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-24 23:24:45,723 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-24 23:24:45,727 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 23:24:45,728 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 23:24:45,892 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 23:24:45,893 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2933 ms
+2024-04-24 23:24:46,104 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 23:24:46,403 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6be6931f
+2024-04-24 23:24:46,406 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 23:24:46,478 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 23:24:46,577 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 23:24:46,643 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 23:24:47,197 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 23:24:49,015 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 23:24:49,021 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 23:24:49,600 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 23:24:50,236 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-24 23:24:50,272 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-24 23:24:50,289 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 8.415 seconds (process running for 9.527)
+2024-04-24 23:25:15,718 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-24 23:25:15,719 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-24 23:25:15,724 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms

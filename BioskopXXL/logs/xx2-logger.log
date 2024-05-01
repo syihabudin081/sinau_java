@@ -1,0 +1,30 @@
+2024-04-24 21:44:31,203 INFO o.s.b.StartupInfoLogger [main] Starting BioskopXxlApplication using Java 17.0.2 with PID 101248 (D:\synrgy\sinau_java\BioskopXXL\target\classes started by hp in D:\synrgy\sinau_java\BioskopXXL)
+2024-04-24 21:44:31,211 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 21:44:32,816 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 21:44:32,970 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interface.
+2024-04-24 21:44:34,343 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-24 21:44:34,363 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-24 21:44:34,367 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 21:44:34,368 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 21:44:34,761 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 21:44:34,764 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3424 ms
+2024-04-24 21:44:35,076 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 21:44:35,491 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d5a1588
+2024-04-24 21:44:35,497 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 21:44:35,654 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 21:44:35,838 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 21:44:35,956 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 21:44:36,576 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 21:44:37,857 INFO o.h.m.i.EntityInstantiatorPojoStandard [main] HHH000182: No default (no-argument) constructor for class: com.example.BioskopXXL.model.Movie (class must be instantiated by Interceptor)
+2024-04-24 21:44:38,151 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 21:44:38,159 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:44:38,764 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 21:44:39,516 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-24 21:44:39,573 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-24 21:44:39,598 INFO o.s.b.StartupInfoLogger [main] Started BioskopXxlApplication in 9.579 seconds (process running for 12.018)
+2024-04-24 21:44:48,842 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-24 21:44:48,842 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-04-24 21:44:48,844 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-04-24 22:06:44,112 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 22:06:44,209 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-24 22:06:44,239 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

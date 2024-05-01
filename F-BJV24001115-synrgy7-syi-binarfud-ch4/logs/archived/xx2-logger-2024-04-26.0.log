@@ -1,0 +1,37 @@
+2024-04-26 04:26:42,818 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h59m26s84ms429µs600ns).
+2024-04-26 13:51:19,739 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h24m39s958ms493µs200ns).
+2024-04-26 15:15:35,637 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m45s356ms559µs800ns).
+2024-04-26 16:59:29,471 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m23s581ms319µs700ns).
+2024-04-26 17:02:50,230 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 17:02:50,387 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-26 17:02:50,445 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-26 17:22:23,047 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 24680 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-26 17:22:23,059 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-26 17:22:24,733 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-26 17:22:24,902 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 148 ms. Found 4 JPA repository interfaces.
+2024-04-26 17:22:26,411 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-26 17:22:26,441 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-26 17:22:26,449 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-26 17:22:26,451 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-26 17:22:26,624 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-26 17:22:26,632 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3428 ms
+2024-04-26 17:22:27,208 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-26 17:22:27,877 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78da899f
+2024-04-26 17:22:27,879 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-26 17:22:28,032 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-26 17:22:28,227 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-26 17:22:28,337 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-26 17:22:29,038 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-26 17:22:32,020 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-26 17:22:32,028 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 17:22:32,682 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-26 17:22:33,469 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-26 17:22:33,523 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-26 17:22:33,545 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 11.965 seconds (process running for 12.867)
+2024-04-26 17:22:36,726 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-26 17:22:36,726 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-04-26 17:22:36,732 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-04-26 17:22:37,190 INFO c.e.B.s.ProductService [http-nio-8080-exec-2] Products: []
+2024-04-26 17:22:42,962 INFO c.e.B.s.MerchantService [http-nio-8080-exec-3] Merchants: [Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=KFC, merchantLocation=Jakarta, open=true), Merchant(id=a9499d73-cd6e-4939-b1db-570d3ad64de4, merchantName=A&W, merchantLocation=Jakarta, open=true)]
+2024-04-26 17:23:29,000 INFO c.e.B.s.UsersService [http-nio-8080-exec-4] Users: [Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123), Users(id=25af6c59-22f3-4bad-87bc-7e4981b5cc08, username=rahul, emailAddress=rahul@example.com, password=password123)]
+2024-04-26 17:24:10,491 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.example.Binarfud.model.Merchant` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('940df57f-19bd-44dc-b43a-a71e7228747e')]

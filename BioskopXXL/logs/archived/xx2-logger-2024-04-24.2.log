@@ -1,0 +1,84 @@
+2024-04-24 21:26:45,288 INFO o.s.b.StartupInfoLogger [main] Starting BioskopXxlApplication using Java 17.0.2 with PID 99060 (D:\synrgy\sinau_java\BioskopXXL\target\classes started by hp in D:\synrgy\sinau_java\BioskopXXL)
+2024-04-24 21:26:45,298 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 21:26:46,602 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 21:26:46,702 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2024-04-24 21:26:47,856 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-24 21:26:47,876 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-24 21:26:47,882 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 21:26:47,882 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 21:26:48,191 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 21:26:48,196 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2783 ms
+2024-04-24 21:26:48,436 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 21:26:48,769 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27fe059d
+2024-04-24 21:26:48,774 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 21:26:48,859 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 21:26:48,968 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 21:26:49,034 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 21:26:49,488 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 21:26:50,248 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 21:26:50,256 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:26:50,279 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'movieController' defined in file [D:\synrgy\sinau_java\BioskopXXL\target\classes\com\example\BioskopXXL\controller\MovieController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.BioskopXXL.service.MovieService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-04-24 21:26:50,279 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:26:50,284 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-04-24 21:26:50,296 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-04-24 21:26:50,300 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-04-24 21:26:50,323 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-24 21:26:50,367 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.BioskopXXL.controller.MovieController required a bean of type 'com.example.BioskopXXL.service.MovieService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.BioskopXXL.service.MovieService' in your configuration.
+
+2024-04-24 21:27:30,965 INFO o.s.b.StartupInfoLogger [main] Starting BioskopXxlApplication using Java 17.0.2 with PID 7856 (D:\synrgy\sinau_java\BioskopXXL\target\classes started by hp in D:\synrgy\sinau_java\BioskopXXL)
+2024-04-24 21:27:30,972 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 21:27:32,287 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 21:27:32,407 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2024-04-24 21:27:33,503 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-24 21:27:33,523 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-24 21:27:33,525 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 21:27:33,527 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 21:27:33,729 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 21:27:33,734 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2658 ms
+2024-04-24 21:27:34,012 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 21:27:34,351 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68ef01a5
+2024-04-24 21:27:34,354 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 21:27:34,425 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 21:27:34,562 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 21:27:34,659 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 21:27:35,184 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 21:27:35,970 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 21:27:35,984 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:27:36,007 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'movieController' defined in file [D:\synrgy\sinau_java\BioskopXXL\target\classes\com\example\BioskopXXL\controller\MovieController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.BioskopXXL.service.MovieService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-04-24 21:27:36,008 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:27:36,013 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-04-24 21:27:36,023 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-04-24 21:27:36,028 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-04-24 21:27:36,054 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-24 21:27:36,107 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.BioskopXXL.controller.MovieController required a bean of type 'com.example.BioskopXXL.service.MovieService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.BioskopXXL.service.MovieService' in your configuration.
+

@@ -1,0 +1,76 @@
+2024-04-24 21:13:11,349 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:13:11,356 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-24 21:13:11,363 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-24 21:13:26,245 INFO o.s.b.StartupInfoLogger [main] Starting BioskopXxlApplication using Java 17.0.2 with PID 36496 (D:\synrgy\sinau_java\BioskopXXL\target\classes started by hp in D:\synrgy\sinau_java\BioskopXXL)
+2024-04-24 21:13:26,252 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 21:13:27,720 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 21:13:27,787 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 0 JPA repository interfaces.
+2024-04-24 21:13:28,861 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-24 21:13:28,875 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-24 21:13:28,879 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 21:13:28,879 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 21:13:29,070 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 21:13:29,072 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2665 ms
+2024-04-24 21:13:29,309 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 21:13:29,683 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73c31181
+2024-04-24 21:13:29,687 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 21:13:29,772 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 21:13:29,922 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 21:13:30,018 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 21:13:30,530 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 21:13:31,446 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 21:13:31,454 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:13:31,532 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-24 21:13:32,328 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-24 21:13:32,375 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-24 21:13:32,397 INFO o.s.b.StartupInfoLogger [main] Started BioskopXxlApplication in 7.147 seconds (process running for 8.493)
+2024-04-24 21:13:35,454 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-24 21:13:35,455 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-24 21:13:35,456 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-04-24 21:13:35,553 INFO c.e.B.c.MovieController [http-nio-8080-exec-1] Returning all movies
+2024-04-24 21:13:35,554 WARN c.e.B.c.MovieController [http-nio-8080-exec-1] Returning all movies
+2024-04-24 21:25:51,932 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:25:52,000 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-24 21:25:52,028 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-24 21:26:14,529 INFO o.s.b.StartupInfoLogger [main] Starting BioskopXxlApplication using Java 17.0.2 with PID 101816 (D:\synrgy\sinau_java\BioskopXXL\target\classes started by hp in D:\synrgy\sinau_java\BioskopXXL)
+2024-04-24 21:26:14,534 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-24 21:26:16,033 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-24 21:26:16,185 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interface.
+2024-04-24 21:26:18,013 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-24 21:26:18,043 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-24 21:26:18,049 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-24 21:26:18,051 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-24 21:26:18,280 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-24 21:26:18,283 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3637 ms
+2024-04-24 21:26:18,636 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-24 21:26:19,133 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7126e26
+2024-04-24 21:26:19,136 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-24 21:26:19,249 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-24 21:26:19,420 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-24 21:26:19,525 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-24 21:26:20,297 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-24 21:26:21,266 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-24 21:26:21,281 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:26:21,314 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'movieController' defined in file [D:\synrgy\sinau_java\BioskopXXL\target\classes\com\example\BioskopXXL\controller\MovieController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.example.BioskopXXL.service.MovieService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-04-24 21:26:21,315 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-24 21:26:21,334 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-04-24 21:26:21,374 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-04-24 21:26:21,381 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-04-24 21:26:21,434 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-24 21:26:21,624 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.BioskopXXL.controller.MovieController required a bean of type 'com.example.BioskopXXL.service.MovieService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.BioskopXXL.service.MovieService' in your configuration.
+

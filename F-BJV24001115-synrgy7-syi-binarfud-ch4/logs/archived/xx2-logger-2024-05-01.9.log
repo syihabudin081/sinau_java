@@ -1,0 +1,38 @@
+2024-05-01 21:19:46,601 INFO c.e.B.s.UsersService [http-nio-8080-exec-6] Users: [Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123), Users(id=25af6c59-22f3-4bad-87bc-7e4981b5cc08, username=rahul, emailAddress=rahul@example.com, password=password123)]
+2024-05-01 21:19:58,028 INFO c.e.B.s.OrdersService [http-nio-8080-exec-7] Order saved: Orders(id=77ccd15d-e58d-457f-ad15-c0dd03c8261b, orderTime=null, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=null, emailAddress=null, password=null))
+2024-05-01 21:20:12,886 INFO c.e.B.s.OrdersService [http-nio-8080-exec-8] Orders: [Orders(id=77ccd15d-e58d-457f-ad15-c0dd03c8261b, orderTime=null, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123))]
+2024-05-01 21:20:50,728 INFO c.e.B.s.OrdersService [http-nio-8080-exec-9] Order: Orders(id=77ccd15d-e58d-457f-ad15-c0dd03c8261b, orderTime=null, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123))
+2024-05-01 21:21:20,504 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:21:20,507 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-01 21:21:20,510 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-01 21:21:24,934 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 18500 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-05-01 21:21:24,937 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-01 21:21:25,832 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-01 21:21:25,948 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2024-05-01 21:21:26,749 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-01 21:21:26,759 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:21:26,761 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-01 21:21:26,761 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-01 21:21:26,839 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-01 21:21:26,842 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1835 ms
+2024-05-01 21:21:27,064 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-01 21:21:27,133 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-01 21:21:27,191 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-01 21:21:27,494 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-01 21:21:27,526 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-01 21:21:27,736 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c2e3460
+2024-05-01 21:21:27,738 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-01 21:21:27,785 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-01 21:21:28,849 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-01 21:21:28,981 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:21:29,364 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-01 21:21:29,809 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:21:29,835 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-01 21:21:29,850 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 5.566 seconds (process running for 6.027)
+2024-05-01 21:21:36,046 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-01 21:21:36,046 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-01 21:21:36,052 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2024-05-01 21:21:36,290 INFO c.e.B.s.OrdersService [http-nio-8080-exec-1] Orders: [Orders(id=77ccd15d-e58d-457f-ad15-c0dd03c8261b, orderTime=null, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123))]
+2024-05-01 21:21:45,660 INFO c.e.B.s.OrdersService [http-nio-8080-exec-3] Order deleted
+2024-05-01 21:22:19,763 INFO c.e.B.s.OrdersService [http-nio-8080-exec-4] Order saved: Orders(id=af6dcaa3-6ce9-4fa1-984d-34d9d73e0f77, orderTime=2024-05-01 21:22:19.74375, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=null, emailAddress=null, password=null))
+2024-05-01 21:22:23,800 INFO c.e.B.s.OrdersService [http-nio-8080-exec-5] Orders: [Orders(id=af6dcaa3-6ce9-4fa1-984d-34d9d73e0f77, orderTime=2024-05-01 21:22:19.74375, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123))]

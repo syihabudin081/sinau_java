@@ -1,0 +1,32 @@
+2024-04-26 20:48:10,247 INFO c.e.B.s.ProductService [http-nio-8080-exec-2] Product saved: Product(id=5c112790-592a-441c-8457-5778ad189db5, product_name=Fried Chicken Ala Carte A&W, price=30000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=null, merchantLocation=null, open=false))
+2024-04-26 20:48:13,775 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 20:48:13,825 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-26 20:48:13,848 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-26 20:48:31,022 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 9736 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-26 20:48:31,029 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-26 20:48:32,819 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-26 20:48:32,985 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 135 ms. Found 4 JPA repository interfaces.
+2024-04-26 20:48:34,566 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-26 20:48:34,594 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-26 20:48:34,602 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-26 20:48:34,603 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-26 20:48:34,755 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-26 20:48:34,759 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3581 ms
+2024-04-26 20:48:35,054 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-26 20:48:35,538 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d13960e
+2024-04-26 20:48:35,541 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-26 20:48:35,649 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-26 20:48:35,849 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-26 20:48:35,963 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-26 20:48:36,772 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-26 20:48:39,017 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-26 20:48:39,023 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 20:48:39,820 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-26 20:48:40,671 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-26 20:48:40,714 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-26 20:48:40,734 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 11.309 seconds (process running for 12.599)
+2024-04-26 20:48:45,147 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-26 20:48:45,148 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-04-26 20:48:45,151 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-04-26 20:48:45,516 INFO c.e.B.s.ProductService [http-nio-8080-exec-2] Product saved: Product(id=3012586a-6b34-4c85-97f3-6769cb0db340, product_name=Double Fried Chicken Ala Carte A&W, price=60000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=null, merchantLocation=null, open=false))
+2024-04-26 20:49:35,842 INFO c.e.B.s.ProductService [http-nio-8080-exec-3] Products: [Product(id=40eec67b-3cac-498d-8c28-4a40abebb6ff, product_name=Super Besar 1, price=50000, merchant=Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=KFC, merchantLocation=Jakarta, open=true)), Product(id=dc998bf4-a21d-43a6-8453-4b4d04109fd1, product_name=Balsem Drink Extra Jumbo, price=30000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true)), Product(id=5c112790-592a-441c-8457-5778ad189db5, product_name=Fried Chicken Ala Carte A&W, price=30000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true)), Product(id=3012586a-6b34-4c85-97f3-6769cb0db340, product_name=Double Fried Chicken Ala Carte A&W, price=60000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true))]

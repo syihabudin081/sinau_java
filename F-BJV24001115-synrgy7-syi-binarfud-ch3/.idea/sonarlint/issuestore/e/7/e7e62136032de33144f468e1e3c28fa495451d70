@@ -1,11 +1,19 @@
 
 b
-java:S1192"LDefine a constant instead of duplicating this literal "Nasi Goreng" 3 times.(»ÿÏæ
-i
-java:S1450"SRemove the "menu" field and declare it as a local variable in the relevant methods.(Ó³š
+java:S1192"LDefine a constant instead of duplicating this literal "Nasi Goreng" 3 times.(»ÿÏæ
+’
+java:S4144\"pUpdate this method so that its implementation is not identical to "placeOrder_ItemNotInMenu_Failure" on line 62.(¹ÌÇüÿÿÿÿ8Öë±±ð1
 o
-java:S1450"ZRemove the "sysInBackup" field and declare it as a local variable in the relevant methods.(€ƒê>
+java:S1450"ZRemove the "sysInBackup" field and declare it as a local variable in the relevant methods.(€ƒê>
+j	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬éÆÛ8¹ì±±ð1
+o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÿû“øÿÿÿÿ8Ûì±±ð1
+o	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»€…¯ýÿÿÿÿ8æì±±ð1
+j	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â—Šõ8ïì±±ð1
+o	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÌÇüÿÿÿÿ8÷ì±±ð1
+F
+java:S1128
+")Remove this unused import 'java.io.File'.(†Ð¥Å8€í±±ð1
 M
-java:S5960)"+Remove this assertion from production code.(°«ðãüÿÿÿÿ8ÞØÈ‰ï1
+java:S5960*"+Remove this assertion from production code.(°«ðãüÿÿÿÿ8ÞØÈ‰ï1
 D
-java:S1068"/Remove this unused "sysInBackup" private field.(€ƒê>
+java:S1068"/Remove this unused "sysInBackup" private field.(€ƒê>
