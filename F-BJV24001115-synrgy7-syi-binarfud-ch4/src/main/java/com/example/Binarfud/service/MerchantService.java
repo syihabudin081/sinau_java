@@ -32,6 +32,28 @@ public class MerchantService {
         }
     }
 
+    public ResponseEntity<?> updateMerchant(UUID id, Merchant newMerchantData) {
+        try {
+            Optional<Merchant> optionalMerchant = merchantRepository.findById(id);
+            if (optionalMerchant.isPresent()) {
+                Merchant existingMerchant = optionalMerchant.get();
+                existingMerchant.setMerchantName(newMerchantData.getMerchantName());
+                existingMerchant.setMerchantLocation(newMerchantData.getMerchantLocation());
+                existingMerchant.setOpen(newMerchantData.isOpen());
+                Merchant updatedMerchant = merchantRepository.save(existingMerchant);
+                log.info("Merchant updated: {}", updatedMerchant);
+                return ResponseEntity.ok(updatedMerchant);
+            } else {
+                log.warn("Merchant not found");
+                return ResponseEntity.notFound().build();
+            }
+        } catch (Exception e) {
+            log.error("Failed to update merchant", e);
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
+
     public ResponseEntity<?> searchMerchantsByLocation(String location) {
         try {
             List<Merchant> merchants = merchantRepository.findActiveMerchantsByLocation(location);

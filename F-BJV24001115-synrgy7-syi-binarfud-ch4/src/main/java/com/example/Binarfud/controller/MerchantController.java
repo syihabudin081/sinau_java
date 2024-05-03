@@ -39,6 +39,11 @@ public class MerchantController {
         return merchantService.saveMerchant(merchant);
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<?> updateMerchant(@PathVariable UUID id, @RequestBody Merchant newMerchantData) {
+        return merchantService.updateMerchant(id, newMerchantData);
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity deleteMerchant(@PathVariable UUID id) {
         return merchantService.deleteMerchant(id);
