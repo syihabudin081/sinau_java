@@ -1,10 +1,12 @@
 package com.example.Binarfud.repository;
 
+import com.example.Binarfud.model.ApiResponse;
 import com.example.Binarfud.model.Merchant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.jpa.repository.query.Procedure;
 import org.springframework.data.repository.query.Param;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 
@@ -21,8 +23,5 @@ public interface MerchantRepository extends JpaRepository<Merchant, UUID> {
     @Procedure(procedureName = "count_merchants_by_location", outputParameterName = "merchantCount")
     Integer countMerchantsByLocation(@Param("locationName") String locationName);
 
-    default ResponseEntity<?> countMerchantsByLocationAsJson(String locationName) {
-        Integer count = countMerchantsByLocation(locationName);
-        return ResponseEntity.ok("{\"merchantCount\": " + count + "}");
-    }
+
 }

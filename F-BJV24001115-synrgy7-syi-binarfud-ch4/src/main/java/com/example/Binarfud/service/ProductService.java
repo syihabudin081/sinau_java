@@ -1,5 +1,6 @@
 package com.example.Binarfud.service;
 
+import com.example.Binarfud.model.ApiResponse;
 import com.example.Binarfud.model.Product;
 import com.example.Binarfud.repository.MerchantRepository;
 import com.example.Binarfud.repository.ProductRepository;
@@ -29,40 +30,44 @@ public class ProductService {
         try {
             Page<Product> products = productRepository.findAll(pageable);
             log.info("Products: {}", products);
-            return ResponseEntity.ok(products);
+            ApiResponse response = new ApiResponse(HttpStatus.OK, "Products retrieved successfully", products);
+            return ResponseEntity.ok(response);
         } catch (Exception e) {
             log.error("Failed to get products", e);
-            return ResponseEntity.badRequest().body(e.getMessage());
+            ApiResponse response = new ApiResponse(HttpStatus.BAD_REQUEST, e.getMessage(), null);
+            return ResponseEntity.badRequest().body(response);
         }
     }
-
 
     public ResponseEntity<?> getProductById(UUID id) {
         try {
             Optional<Product> product = productRepository.findById(id);
             if (product.isPresent()) {
                 log.info("Product: {}", product.get());
-                return ResponseEntity.ok(product.get());
+                ApiResponse response = new ApiResponse(HttpStatus.OK, "Product retrieved successfully", product.get());
+                return ResponseEntity.ok(response);
             } else {
                 log.warn("Product not found");
+                ApiResponse response = new ApiResponse(HttpStatus.NOT_FOUND, "Product not found", null);
                 return ResponseEntity.notFound().build();
             }
         } catch (Exception e) {
             log.error("Failed to get product", e);
-            return ResponseEntity.badRequest().body(e.getMessage());
+            ApiResponse response = new ApiResponse(HttpStatus.BAD_REQUEST, e.getMessage(), null);
+            return ResponseEntity.badRequest().body(response);
         }
     }
-
 
     public ResponseEntity<?> saveProduct(Product product) {
         try {
             Product newProduct = productRepository.save(product);
             log.info("Product saved: {}", newProduct);
-
-            return ResponseEntity.status(HttpStatus.CREATED).body("Product saved successfully");
+            ApiResponse response = new ApiResponse(HttpStatus.CREATED, "Product saved successfully", newProduct);
+            return ResponseEntity.status(HttpStatus.CREATED).body(response);
         } catch (Exception e) {
             log.error("Failed to save product", e);
-            return ResponseEntity.badRequest().body(e.getMessage());
+            ApiResponse response = new ApiResponse(HttpStatus.BAD_REQUEST, e.getMessage(), null);
+            return ResponseEntity.badRequest().body(response);
         }
     }
 
@@ -70,10 +75,12 @@ public class ProductService {
         try {
             productRepository.deleteById(id);
             log.info("Product deleted");
-            return ResponseEntity.ok("Product deleted successfully");
+            ApiResponse response = new ApiResponse(HttpStatus.OK, "Product deleted successfully", null);
+            return ResponseEntity.ok(response);
         } catch (Exception e) {
             log.error("Failed to delete product", e);
-            return ResponseEntity.badRequest().body(e.getMessage());
+            ApiResponse response = new ApiResponse(HttpStatus.BAD_REQUEST, e.getMessage(), null);
+            return ResponseEntity.badRequest().body(response);
         }
     }
 }
