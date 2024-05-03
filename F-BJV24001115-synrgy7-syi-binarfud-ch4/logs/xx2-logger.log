@@ -1,27 +1,9 @@
-2024-05-01 22:40:46,027 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 24128 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
-2024-05-01 22:40:46,033 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-05-01 22:40:47,062 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-01 22:40:47,185 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 107 ms. Found 5 JPA repository interfaces.
-2024-05-01 22:40:47,954 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2024-05-01 22:40:47,968 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
-2024-05-01 22:40:47,973 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
-2024-05-01 22:40:47,973 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-01 22:40:48,054 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2024-05-01 22:40:48,056 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1954 ms
-2024-05-01 22:40:48,295 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-01 22:40:48,404 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-01 22:40:48,461 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-05-01 22:40:48,833 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-01 22:40:48,878 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-05-01 22:40:49,135 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36211bbc
-2024-05-01 22:40:49,136 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-05-01 22:40:49,195 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-05-01 22:40:50,401 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-01 22:40:50,567 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-01 22:40:50,964 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-01 22:40:51,378 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
-2024-05-01 22:40:51,404 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
-2024-05-01 22:40:51,415 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 6.15 seconds (process running for 6.754)
-2024-05-01 22:41:02,044 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-01 22:41:02,049 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-05-01 22:41:02,057 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-03 15:31:13,617 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-03 15:31:13,619 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-05-03 15:31:13,621 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-05-03 15:31:17,730 INFO c.e.B.s.MerchantService [http-nio-8080-exec-3] Merchants found in location Bandung: [Merchant(id=219d4a5d-874e-4f02-a080-e83d847cb95f, merchantName=Batagor Mang Asep, merchantLocation=Bandung, open=true), Merchant(id=898e13e8-4430-4c6c-bb16-9de60aa7f422, merchantName=Cilok Mang Asep Racing, merchantLocation=Bandung, open=true)]
+2024-05-03 15:31:22,954 INFO c.e.B.s.OrderDetailService [http-nio-8080-exec-4] Order details: [OrderDetail(id=cf48ed11-20ad-403d-8a3f-ae4e092528c6, quantity=2, totalPrice=20000.00, order=Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123)), product=Product(id=125cb798-403d-4126-94a4-36a20e9aa7a6, product_name=Fried Chicken Matcha, price=10000.00, merchant=Merchant(id=4a5e66c6-cb15-401e-beec-c1a291b664c4, merchantName=KFC, merchantLocation=Jakarta, open=true)))]
+2024-05-03 15:31:31,400 INFO c.e.B.s.OrdersService [http-nio-8080-exec-8] Orders: [Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123))]
+2024-05-03 15:31:54,988 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-03 15:31:54,991 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-03 15:31:54,995 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

@@ -32,6 +32,22 @@ public class MerchantService {
         }
     }
 
+    public ResponseEntity<?> searchMerchantsByLocation(String location) {
+        try {
+            List<Merchant> merchants = merchantRepository.findActiveMerchantsByLocation(location);
+            if (merchants.isEmpty()) {
+                log.warn("No merchants found in location: {}", location);
+                return ResponseEntity.notFound().build();
+            } else {
+                log.info("Merchants found in location {}: {}", location, merchants);
+                return ResponseEntity.ok(merchants);
+            }
+        } catch (Exception e) {
+            log.error("Failed to search merchants by location", e);
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
+    }
+
     public ResponseEntity<?> getMerchantById(UUID id) {
         try {
             Optional<Merchant> merchant = merchantRepository.findById(id);
@@ -68,6 +84,10 @@ public class MerchantService {
             log.error("Failed to delete merchant", e);
             return ResponseEntity.badRequest().body(e.getMessage());
         }
+    }
+
+    public ResponseEntity countMerchantsByLocation(String locationName) {
+        return merchantRepository.countMerchantsByLocationAsJson(locationName);
     }
 }
 

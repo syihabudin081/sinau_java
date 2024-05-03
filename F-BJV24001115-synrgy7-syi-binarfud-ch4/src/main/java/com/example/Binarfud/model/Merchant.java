@@ -27,6 +27,4 @@ public class Merchant {
     @Column(name = "open",nullable = false)
     private boolean open;
 
-
-
 }
