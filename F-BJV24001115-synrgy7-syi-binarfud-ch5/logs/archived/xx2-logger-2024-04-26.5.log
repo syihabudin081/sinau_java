@@ -1,0 +1,50 @@
+2024-04-26 18:21:10,095 INFO c.e.B.s.ProductService [http-nio-8080-exec-10] Product saved: Product(id=f4d8d6ce-ee2c-4dde-824e-fc267a80f58a, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:21:17,049 INFO c.e.B.s.ProductService [http-nio-8080-exec-1] Products: [Product(id=f4d8d6ce-ee2c-4dde-824e-fc267a80f58a, product_name=Super Besar 1, price=50000, merchant=null)]
+2024-04-26 18:21:28,090 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.UUID` from String "940df57f-19bd-44dc-b43a-sasasasa71e7228747e": UUID has to be represented by standard 36-char representation]
+2024-04-26 18:21:31,517 INFO c.e.B.s.ProductService [http-nio-8080-exec-4] Product saved: Product(id=12dedaa2-9b83-48a9-953e-f6765cb9f675, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:21:33,492 INFO c.e.B.s.ProductService [http-nio-8080-exec-5] Product saved: Product(id=aa0afb70-bebf-4f98-b7dc-08a433bb29eb, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:21:34,244 INFO c.e.B.s.ProductService [http-nio-8080-exec-7] Product saved: Product(id=667dcb13-f721-44e7-b4bd-7ebe002893a8, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:21:34,823 INFO c.e.B.s.ProductService [http-nio-8080-exec-6] Product saved: Product(id=379fd61d-9abf-4357-831f-69cb09e96454, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:21:35,400 INFO c.e.B.s.ProductService [http-nio-8080-exec-8] Product saved: Product(id=7c168e0f-3f5c-4d2d-8008-0a30a0158abe, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:21:35,826 INFO c.e.B.s.ProductService [http-nio-8080-exec-9] Product saved: Product(id=c28a1f34-1671-4774-8a99-7e536d8b221e, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:21:36,413 INFO c.e.B.s.ProductService [http-nio-8080-exec-10] Product saved: Product(id=d4eb5d34-b074-4d25-ad45-9ce15b3c3393, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:22:00,248 INFO c.e.B.s.ProductService [http-nio-8080-exec-1] Products: []
+2024-04-26 18:22:30,427 INFO c.e.B.s.ProductService [http-nio-8080-exec-2] Product saved: Product(id=abf22815-474f-422e-8119-884057508937, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:22:33,140 INFO c.e.B.s.ProductService [http-nio-8080-exec-3] Products: [Product(id=abf22815-474f-422e-8119-884057508937, product_name=Super Besar 1, price=50000, merchant=null)]
+2024-04-26 18:22:41,389 INFO c.e.B.s.MerchantService [http-nio-8080-exec-4] Merchants: [Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=KFC, merchantLocation=Jakarta, open=true, products=[]), Merchant(id=a9499d73-cd6e-4939-b1db-570d3ad64de4, merchantName=A&W, merchantLocation=Jakarta, open=true, products=[])]
+2024-04-26 18:25:55,301 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 18:25:55,358 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-26 18:25:55,379 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-26 18:26:03,521 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 24104 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-26 18:26:03,525 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-26 18:26:04,995 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-26 18:26:05,163 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 143 ms. Found 4 JPA repository interfaces.
+2024-04-26 18:26:06,392 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-26 18:26:06,410 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-26 18:26:06,416 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-26 18:26:06,416 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-26 18:26:06,521 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-26 18:26:06,524 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2725 ms
+2024-04-26 18:26:06,786 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-26 18:26:07,072 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ece79fe
+2024-04-26 18:26:07,075 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-26 18:26:07,152 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-26 18:26:07,369 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-26 18:26:07,471 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-26 18:26:08,058 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-26 18:26:10,046 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-26 18:26:10,051 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 18:26:10,655 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-26 18:26:11,346 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-26 18:26:11,398 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-26 18:26:11,416 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 8.856 seconds (process running for 9.802)
+2024-04-26 18:26:11,688 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-26 18:26:11,689 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-26 18:26:11,691 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-04-26 18:26:12,042 INFO c.e.B.s.MerchantService [http-nio-8080-exec-1] Merchants: [Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=KFC, merchantLocation=Jakarta, open=true, products=[]), Merchant(id=a9499d73-cd6e-4939-b1db-570d3ad64de4, merchantName=A&W, merchantLocation=Jakarta, open=true, products=[])]
+2024-04-26 18:26:16,035 INFO c.e.B.s.ProductService [http-nio-8080-exec-3] Products: [Product(id=abf22815-474f-422e-8119-884057508937, product_name=Super Besar 1, price=50000, merchant=null)]
+2024-04-26 18:26:31,060 INFO c.e.B.s.ProductService [http-nio-8080-exec-4] Product saved: Product(id=75746a4c-98ae-4d85-add7-09db1140776d, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false, products=null))
+2024-04-26 18:26:36,894 INFO c.e.B.s.ProductService [http-nio-8080-exec-5] Products: [Product(id=75746a4c-98ae-4d85-add7-09db1140776d, product_name=Super Besar 1, price=50000, merchant=null)]
+2024-04-26 18:26:50,301 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 18:26:50,304 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-26 18:26:50,313 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

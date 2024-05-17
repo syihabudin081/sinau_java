@@ -1,0 +1,35 @@
+2024-05-01 21:31:30,513 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 21052 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-05-01 21:31:30,519 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-01 21:31:31,461 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-01 21:31:31,621 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 137 ms. Found 4 JPA repository interfaces.
+2024-05-01 21:31:32,532 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-01 21:31:32,545 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:31:32,548 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-01 21:31:32,549 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-01 21:31:32,619 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-01 21:31:32,621 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2042 ms
+2024-05-01 21:31:32,874 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-01 21:31:32,966 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-01 21:31:33,037 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-01 21:31:33,450 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-01 21:31:33,501 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-01 21:31:33,881 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d512652
+2024-05-01 21:31:33,884 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-01 21:31:33,933 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-01 21:31:35,224 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-01 21:31:35,394 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:31:35,839 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-01 21:31:36,341 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:31:36,370 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-01 21:31:36,381 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 6.603 seconds (process running for 7.091)
+2024-05-01 21:31:46,841 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-01 21:31:46,842 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-01 21:31:46,848 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2024-05-01 21:31:47,149 INFO c.e.B.s.OrdersService [http-nio-8080-exec-1] Orders: [Orders(id=af6dcaa3-6ce9-4fa1-984d-34d9d73e0f77, orderTime=2024-05-01 21:22:19.74375, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123))]
+2024-05-01 21:32:06,945 INFO c.e.B.s.OrdersService [http-nio-8080-exec-3] Order deleted
+2024-05-01 21:32:11,573 INFO c.e.B.s.OrdersService [http-nio-8080-exec-4] Orders: []
+2024-05-01 21:32:18,743 INFO c.e.B.s.OrdersService [http-nio-8080-exec-5] Order saved: Orders(id=7e916172-35b5-4307-b189-f976ba4c5659, orderTime=null, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=null, emailAddress=null, password=null))
+2024-05-01 21:32:24,561 INFO c.e.B.s.OrdersService [http-nio-8080-exec-6] Orders: [Orders(id=7e916172-35b5-4307-b189-f976ba4c5659, orderTime=null, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=4c6995f7-be0c-446c-aac0-45c030e75cd8, username=john_dsoe, emailAddress=john.doe@example.com, password=password123))]
+2024-05-01 21:34:43,057 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:34:43,074 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-01 21:34:43,089 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

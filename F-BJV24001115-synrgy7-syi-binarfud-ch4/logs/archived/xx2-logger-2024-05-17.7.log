@@ -1,0 +1,41 @@
+2024-05-17 14:36:21,500 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-17 14:36:21,506 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-17 14:36:21,510 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-17 14:36:54,070 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 14188 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4)
+2024-05-17 14:36:54,073 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-17 14:36:55,223 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-17 14:36:55,331 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96 ms. Found 5 JPA repository interfaces.
+2024-05-17 14:36:56,180 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-17 14:36:56,204 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-17 14:36:56,209 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-17 14:36:56,209 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-17 14:36:56,309 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-17 14:36:56,311 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2169 ms
+2024-05-17 14:36:56,521 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-17 14:36:56,638 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-17 14:36:56,707 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-17 14:36:57,250 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-17 14:36:57,342 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-17 14:36:57,805 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b936b04
+2024-05-17 14:36:57,808 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-17 14:36:58,012 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-17 14:36:59,553 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-17 14:36:59,743 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-17 14:37:00,139 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-17 14:37:00,474 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-17 14:37:01,275 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-17 14:37:01,323 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-17 14:37:01,344 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 8.032 seconds (process running for 8.629)
+2024-05-17 14:37:01,722 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-17 14:37:01,723 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-05-17 14:37:01,725 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-05-17 14:37:01,882 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-2] Order: Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123))
+2024-05-17 14:37:01,950 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-2] Report stream: java.io.BufferedInputStream@14f8769d
+2024-05-17 14:37:03,927 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-4] Order: Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123))
+2024-05-17 14:37:03,930 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-4] Report stream: java.io.BufferedInputStream@27d2dee4
+2024-05-17 14:37:04,731 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-6] Order: Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123))
+2024-05-17 14:37:04,737 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-6] Report stream: java.io.BufferedInputStream@761e576f
+2024-05-17 14:37:05,377 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-8] Order: Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123))
+2024-05-17 14:37:05,380 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-8] Report stream: java.io.BufferedInputStream@7b43e6c5
+2024-05-17 14:37:05,975 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-10] Order: Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123))
+2024-05-17 14:37:05,979 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-10] Report stream: java.io.BufferedInputStream@4ec53dc8

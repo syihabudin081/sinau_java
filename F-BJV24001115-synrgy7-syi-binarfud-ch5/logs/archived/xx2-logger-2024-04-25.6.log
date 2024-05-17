@@ -1,0 +1,41 @@
+2024-04-25 01:15:19,933 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 4928 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-25 01:15:19,934 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 01:15:21,300 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25 01:15:21,441 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 123 ms. Found 4 JPA repository interfaces.
+2024-04-25 01:15:22,493 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-25 01:15:22,505 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-25 01:15:22,515 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-25 01:15:22,515 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25 01:15:22,651 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-25 01:15:22,651 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2630 ms
+2024-04-25 01:15:22,889 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-25 01:15:23,299 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6be6931f
+2024-04-25 01:15:23,301 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-25 01:15:23,390 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25 01:15:23,538 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25 01:15:23,621 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-25 01:15:24,055 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25 01:15:25,496 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25 01:15:25,506 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25 01:15:25,930 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25 01:15:26,450 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-25 01:15:26,483 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-25 01:15:26,505 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 7.396 seconds (process running for 8.975)
+2024-04-25 01:15:31,477 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25 01:15:31,477 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-25 01:15:31,480 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-04-25 01:15:31,713 WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-1] SQL Error: 0, SQLState: 23505
+2024-04-25 01:15:31,713 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-1] ERROR: duplicate key value violates unique constraint "unique_username_email"
+  Detail: Key (username, email_address)=(john_doe, john.doe@example.com) already exists.
+2024-04-25 01:16:15,437 WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] SQL Error: 0, SQLState: 23505
+2024-04-25 01:16:15,437 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-5] ERROR: duplicate key value violates unique constraint "unique_username_email"
+  Detail: Key (username, email_address)=(john_doe, john.dsoe@example.com) already exists.
+2024-04-25 01:18:38,300 WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-10] SQL Error: 0, SQLState: 23505
+2024-04-25 01:18:38,303 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-10] ERROR: duplicate key value violates unique constraint "unique_username"
+  Detail: Key (username)=(john_dsoe) already exists.
+2024-04-25 01:18:44,740 WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-1] SQL Error: 0, SQLState: 23505
+2024-04-25 01:18:44,741 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-1] ERROR: duplicate key value violates unique constraint "unique_username_email"
+  Detail: Key (username, email_address)=(john_dsoe, john.doe@example.com) already exists.
+2024-04-25 01:18:48,215 WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-3] SQL Error: 0, SQLState: 23505
+2024-04-25 01:18:48,215 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-3] ERROR: duplicate key value violates unique constraint "unique_email"
+  Detail: Key (email_address)=(john.doe@example.com) already exists.

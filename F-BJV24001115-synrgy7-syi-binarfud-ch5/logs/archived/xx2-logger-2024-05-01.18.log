@@ -1,0 +1,40 @@
+2024-05-01 21:49:49,956 INFO c.e.B.s.ProductService [http-nio-8080-exec-1] Product saved: Product(id=9f0f02a3-d284-4c51-84f6-1ba7f12dbf51, product_name=Paket Panas 2, price=50000, deleted=false, merchant=Merchant(id=3a46f8a4-839b-46c1-b973-ea026b21b4e0, merchantName=null, merchantLocation=null, open=false, deleted=false))
+2024-05-01 21:50:00,112 INFO c.e.B.s.ProductService [http-nio-8080-exec-4] Product saved: Product(id=9a9687e2-b5b5-4798-9902-8346e36c9579, product_name=Paket Panas 1, price=45000, deleted=false, merchant=Merchant(id=3a46f8a4-839b-46c1-b973-ea026b21b4e0, merchantName=null, merchantLocation=null, open=false, deleted=false))
+2024-05-01 21:50:04,123 INFO c.e.B.s.ProductService [http-nio-8080-exec-3] Products: [Product(id=9f0f02a3-d284-4c51-84f6-1ba7f12dbf51, product_name=Paket Panas 2, price=50000.00, deleted=false, merchant=Merchant(id=3a46f8a4-839b-46c1-b973-ea026b21b4e0, merchantName=KFC, merchantLocation=Jakarta, open=true, deleted=false)), Product(id=9a9687e2-b5b5-4798-9902-8346e36c9579, product_name=Paket Panas 1, price=45000.00, deleted=false, merchant=Merchant(id=3a46f8a4-839b-46c1-b973-ea026b21b4e0, merchantName=KFC, merchantLocation=Jakarta, open=true, deleted=false))]
+2024-05-01 21:50:19,535 INFO c.e.B.s.UsersService [http-nio-8080-exec-2] Users: []
+2024-05-01 21:50:20,440 INFO c.e.B.s.UsersService [http-nio-8080-exec-6] Users: []
+2024-05-01 21:51:24,226 INFO c.e.B.s.UsersService [http-nio-8080-exec-9] User saved: Users(id=aeb6b22e-e4cc-41a1-bcb2-e7af5a0ba402, username=john123, emailAddress=john@gmail.com, password=123, deleted=false)
+2024-05-01 21:51:38,300 INFO c.e.B.s.UsersService [http-nio-8080-exec-5] User saved: Users(id=cf3c09e3-9c46-4bf2-aa56-3f3333c63b7e, username=asep, emailAddress=asep@gmail.com, password=123, deleted=false)
+2024-05-01 21:51:42,158 INFO c.e.B.s.UsersService [http-nio-8080-exec-1] Users: [Users(id=aeb6b22e-e4cc-41a1-bcb2-e7af5a0ba402, username=john123, emailAddress=john@gmail.com, password=123, deleted=false), Users(id=cf3c09e3-9c46-4bf2-aa56-3f3333c63b7e, username=asep, emailAddress=asep@gmail.com, password=123, deleted=false)]
+2024-05-01 21:53:56,311 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:53:56,326 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-01 21:53:56,334 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-01 21:54:02,712 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 6320 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-05-01 21:54:02,717 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-01 21:54:03,711 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-01 21:54:03,814 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87 ms. Found 4 JPA repository interfaces.
+2024-05-01 21:54:04,714 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-01 21:54:04,732 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:54:04,736 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-01 21:54:04,737 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-01 21:54:04,827 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-01 21:54:04,830 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2038 ms
+2024-05-01 21:54:05,115 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-01 21:54:05,249 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-01 21:54:05,380 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-01 21:54:05,872 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-01 21:54:05,913 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-01 21:54:06,260 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@796c68bf
+2024-05-01 21:54:06,263 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-01 21:54:06,342 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-01 21:54:07,600 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-01 21:54:07,814 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:54:08,374 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-01 21:54:08,982 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:54:09,008 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-01 21:54:09,019 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 7.399 seconds (process running for 7.961)
+2024-05-01 21:54:13,667 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-01 21:54:13,667 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-01 21:54:13,669 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-05-01 21:54:13,921 INFO c.e.B.s.UsersService [http-nio-8080-exec-1] Users: [Users(id=aeb6b22e-e4cc-41a1-bcb2-e7af5a0ba402, username=john123, emailAddress=john@gmail.com, password=123, deleted=false), Users(id=cf3c09e3-9c46-4bf2-aa56-3f3333c63b7e, username=asep, emailAddress=asep@gmail.com, password=123, deleted=false)]
+2024-05-01 21:54:17,866 INFO c.e.B.s.MerchantService [http-nio-8080-exec-3] Merchants: [Merchant(id=3a46f8a4-839b-46c1-b973-ea026b21b4e0, merchantName=KFC, merchantLocation=Jakarta, open=true, deleted=false), Merchant(id=cd75e0b6-02c3-4e99-94be-34ddbc7626a0, merchantName=Mie Gacoan, merchantLocation=Jakarta, open=true, deleted=false), Merchant(id=34fcf757-239e-44f6-8a3f-cedc5c134af8, merchantName=Hotways Chicken, merchantLocation=Jakarta, open=true, deleted=false)]

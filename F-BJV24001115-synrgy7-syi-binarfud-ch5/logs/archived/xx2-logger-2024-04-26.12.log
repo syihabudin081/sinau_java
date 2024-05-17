@@ -1,0 +1,30 @@
+2024-04-26 20:42:49,471 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 29600 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-26 20:42:49,480 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-26 20:42:51,213 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-26 20:42:51,345 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 110 ms. Found 4 JPA repository interfaces.
+2024-04-26 20:42:52,488 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-26 20:42:52,507 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-26 20:42:52,511 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-26 20:42:52,512 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-26 20:42:52,639 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-26 20:42:52,641 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3024 ms
+2024-04-26 20:42:52,957 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-26 20:42:53,411 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@122635ef
+2024-04-26 20:42:53,416 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-26 20:42:53,526 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-26 20:42:53,730 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-26 20:42:53,841 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-26 20:42:54,490 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-26 20:42:56,823 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-26 20:42:56,832 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 20:42:57,520 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-26 20:42:58,558 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-26 20:42:58,632 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-26 20:42:58,654 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 10.643 seconds (process running for 11.807)
+2024-04-26 20:43:02,745 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-26 20:43:02,746 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-04-26 20:43:02,749 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-04-26 20:43:03,165 INFO c.e.B.s.ProductService [http-nio-8080-exec-2] Product saved: Product(id=dc998bf4-a21d-43a6-8453-4b4d04109fd1, product_name=Balsem Drink Extra Jumbo, price=30000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=null, merchantLocation=null, open=false))
+2024-04-26 20:43:06,653 INFO c.e.B.s.ProductService [http-nio-8080-exec-3] Products: [Product(id=40eec67b-3cac-498d-8c28-4a40abebb6ff, product_name=Super Besar 1, price=50000, merchant=Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=KFC, merchantLocation=Jakarta, open=true)), Product(id=f18a9087-e936-40c9-8a27-abfba19090d2, product_name=Balsem Drink, price=30000, merchant=null), Product(id=dc998bf4-a21d-43a6-8453-4b4d04109fd1, product_name=Balsem Drink Extra Jumbo, price=30000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true))]
+2024-04-26 20:44:36,957 INFO c.e.B.s.ProductService [http-nio-8080-exec-7] Products: [Product(id=40eec67b-3cac-498d-8c28-4a40abebb6ff, product_name=Super Besar 1, price=50000, merchant=Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=KFC, merchantLocation=Jakarta, open=true)), Product(id=f18a9087-e936-40c9-8a27-abfba19090d2, product_name=Balsem Drink, price=30000, merchant=null), Product(id=dc998bf4-a21d-43a6-8453-4b4d04109fd1, product_name=Balsem Drink Extra Jumbo, price=30000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true))]
+2024-04-26 20:47:04,638 INFO c.e.B.s.ProductService [http-nio-8080-exec-9] Products: [Product(id=40eec67b-3cac-498d-8c28-4a40abebb6ff, product_name=Super Besar 1, price=50000, merchant=Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=KFC, merchantLocation=Jakarta, open=true)), Product(id=dc998bf4-a21d-43a6-8453-4b4d04109fd1, product_name=Balsem Drink Extra Jumbo, price=30000, merchant=Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true))]
