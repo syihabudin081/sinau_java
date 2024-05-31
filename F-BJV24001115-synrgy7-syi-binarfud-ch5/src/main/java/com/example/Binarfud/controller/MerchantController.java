@@ -12,6 +12,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -36,6 +37,7 @@ public class MerchantController {
 
     @GetMapping
     public ResponseEntity<List<MerchantDTO>> getAllMerchants() {
+
         List<MerchantDTO> merchantDTOs = merchantService.getAllMerchants()
                 .stream()
                 .map(merchant -> modelMapper.map(merchant, MerchantDTO.class))
@@ -44,6 +46,7 @@ public class MerchantController {
     }
 
     @GetMapping("/revenue")
+    @PreAuthorize("hasRole('MERCHANT')")
     public RevenueResponseDTO getRevenue(@RequestParam UUID merchantId,
                                          @RequestParam String startDateStr,
                                          @RequestParam String endDateStr) {
@@ -83,12 +86,14 @@ public class MerchantController {
 
 
     @PostMapping
+    @PreAuthorize("hasRole('MERCHANT')")
     public ResponseEntity createMerchant(@RequestBody MerchantCreateUpdateDTO merchantDTO) {
         Merchant merchant = modelMapper.map(merchantDTO, Merchant.class);
         return merchantService.saveMerchant(merchant);
     }
 
     @PutMapping("/{id}")
+    @PreAuthorize("hasRole('MERCHANT')")
     public ResponseEntity<?> updateMerchant(@PathVariable UUID id, @RequestBody MerchantCreateUpdateDTO merchantDTO) {
         Optional<Merchant> existingMerchantOptional = merchantService.getMerchantById(id);
 
@@ -118,6 +123,7 @@ public class MerchantController {
 
 
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('MERCHANT')")
     public ResponseEntity deleteMerchant(@PathVariable UUID id) {
         return merchantService.deleteMerchant(id);
     }

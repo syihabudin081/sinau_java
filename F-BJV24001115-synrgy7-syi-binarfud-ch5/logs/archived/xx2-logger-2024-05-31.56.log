@@ -1,0 +1,44 @@
+2024-05-31 03:15:12,909 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 03:15:12,917 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-31 03:15:12,924 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-31 03:15:16,313 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 15128 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-31 03:15:16,317 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-31 03:15:17,650 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-31 03:15:17,786 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 118 ms. Found 6 JPA repository interfaces.
+2024-05-31 03:15:18,844 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-31 03:15:18,866 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-31 03:15:18,871 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-31 03:15:18,871 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-31 03:15:18,984 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-31 03:15:18,987 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2603 ms
+2024-05-31 03:15:19,211 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-31 03:15:19,337 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-31 03:15:19,404 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-31 03:15:19,805 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-31 03:15:19,851 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-31 03:15:20,102 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a03529c
+2024-05-31 03:15:20,107 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-31 03:15:20,181 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-31 03:15:21,610 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-31 03:15:21,762 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 03:15:22,405 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-31 03:15:23,127 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-31 03:15:23,720 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@27c68ccb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ba88ab5, org.springframework.security.web.context.SecurityContextHolderFilter@6d6e8dfc, org.springframework.security.web.header.HeaderWriterFilter@1181a376, org.springframework.web.filter.CorsFilter@3d2ec8b2, org.springframework.security.web.authentication.logout.LogoutFilter@4b1339bf, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@7231c423, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@7902b006, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@52b7c1d9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5af7a7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1ab6a093, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@43905ade, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e5337d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ab40f46, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@502326b3, org.springframework.security.web.session.SessionManagementFilter@5b628376, org.springframework.security.web.access.ExceptionTranslationFilter@7cb4fc46, org.springframework.security.web.access.intercept.AuthorizationFilter@3d26c82d]
+2024-05-31 03:15:24,091 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-31 03:15:24,092 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-05-31 03:15:24,092 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-31 03:15:24,093 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-05-31 03:15:24,093 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-31 03:15:24,093 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-05-31 03:15:24,093 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-31 03:15:24,093 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-05-31 03:15:24,093 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-05-31 03:15:24,093 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-05-31 03:15:24,158 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-31 03:15:24,215 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-31 03:15:24,237 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 8.718 seconds (process running for 9.289)
+2024-05-31 03:15:31,682 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-31 03:15:31,684 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-05-31 03:15:31,686 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-05-31 03:15:31,835 INFO c.e.B.c.AuthController [http-nio-8080-exec-2] loginRequestDto: LoginRequestDTO(username=asep1, password=123)
+2024-05-31 03:15:32,127 INFO c.e.B.c.AuthController [http-nio-8080-exec-2] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep1, password=$2a$10$d4dWbTqeMT1stVInnu/MquF04JHl0LUl/Sclc/OUU9mZHq1sTRcbO, authorities=[ROLE_MERCHANT]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_MERCHANT]]

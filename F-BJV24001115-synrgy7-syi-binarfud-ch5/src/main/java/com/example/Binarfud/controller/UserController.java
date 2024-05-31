@@ -1,8 +1,10 @@
 package com.example.Binarfud.controller;
 import com.example.Binarfud.model.Users;
+import com.example.Binarfud.payload.UserDTO;
 import com.example.Binarfud.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
@@ -28,11 +30,18 @@ public class UserController {
              }
 
     @PostMapping
-    public ResponseEntity<?> createUser(@RequestBody Users user) {
+    public ResponseEntity<?> createUser(@RequestBody UserDTO user) {
         return usersService.saveUser(user);
     }
 
+    @PutMapping("/{id}")
+    @PreAuthorize("hasRole('CUSTOMER')")
+    public ResponseEntity<?> updateUser(@PathVariable UUID id, @RequestBody UserDTO user) {
+        return usersService.updateUser(id, user);
+    }
+
     @DeleteMapping("/{id}")
+    @PreAuthorize("hasRole('CUSTOMER')")
     public ResponseEntity<?> deleteUser(@PathVariable UUID id) {
         return usersService.deleteUser(id);
     }

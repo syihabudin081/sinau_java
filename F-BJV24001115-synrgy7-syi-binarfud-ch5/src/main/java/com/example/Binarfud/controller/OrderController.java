@@ -9,6 +9,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
@@ -22,6 +23,7 @@ public class OrderController {
     private InvoiceService invoiceService;
 
     @GetMapping("/generate-invoice")
+    @PreAuthorize("hasRole('CUSTOMER')")
     public ResponseEntity<byte[]> generateInvoice(@RequestParam UUID orderId) {
         try {
             byte[] pdfBytes = invoiceService.generateOrderInvoice(orderId);

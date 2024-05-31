@@ -1,0 +1,33 @@
+2024-05-29 22:37:14,185 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 31860 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-29 22:37:14,193 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-29 22:37:15,766 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-29 22:37:15,896 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108 ms. Found 5 JPA repository interfaces.
+2024-05-29 22:37:17,144 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-29 22:37:17,171 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 22:37:17,192 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-29 22:37:17,192 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-29 22:37:17,393 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-29 22:37:17,397 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3134 ms
+2024-05-29 22:37:17,668 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-29 22:37:17,799 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-29 22:37:17,869 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-29 22:37:18,374 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-29 22:37:18,422 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-29 22:37:18,682 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2404abe2
+2024-05-29 22:37:18,682 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-29 22:37:18,747 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-29 22:37:20,583 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-29 22:37:20,769 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-29 22:37:21,405 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-29 22:37:22,247 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-29 22:37:22,781 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a973b5e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6225c800, org.springframework.security.web.context.SecurityContextHolderFilter@7f3616d2, org.springframework.security.web.header.HeaderWriterFilter@73193fe0, org.springframework.web.filter.CorsFilter@3e60b1b, org.springframework.security.web.authentication.logout.LogoutFilter@522941b2, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@76ebd595, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6212dc7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64bcf689, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17f43f4a, org.springframework.security.web.session.SessionManagementFilter@47d8c666, org.springframework.security.web.access.ExceptionTranslationFilter@271bbb75, org.springframework.security.web.access.intercept.AuthorizationFilter@c9a8e12]
+2024-05-29 22:37:23,267 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 22:37:23,315 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-29 22:37:23,324 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 10.024 seconds (process running for 10.727)
+2024-05-29 22:37:25,086 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 22:37:25,087 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-29 22:37:25,088 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-29 22:37:25,301 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.Binarfud.model.Role` from String "CUSTOMER": not one of the values accepted for Enum class: [ROLE_MERCHANT, ROLE_CUSTOMER]]
+2024-05-29 22:37:27,578 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.Binarfud.model.Role` from String "CUSTOMER": not one of the values accepted for Enum class: [ROLE_MERCHANT, ROLE_CUSTOMER]]
+2024-05-29 22:38:06,184 INFO c.e.B.c.AuthController [http-nio-8080-exec-6] loginRequestDto: LoginRequestDTO(username=asep2, password=12345678)
+2024-05-29 22:38:06,400 INFO c.e.B.c.AuthController [http-nio-8080-exec-6] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep2, password=$2a$10$fgkce0HdmIPb56CaSvpnFu5Dg5BgQIns3mkP6MFZoov6Ac89fuiHa, authorities=[ROLE_MERCHANT]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_MERCHANT]]

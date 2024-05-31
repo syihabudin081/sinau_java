@@ -1,0 +1,36 @@
+2024-05-27 20:53:23,773 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m45s944ms607µs300ns).
+2024-05-27 20:53:46,476 INFO c.e.B.c.AuthController [http-nio-8080-exec-3] loginRequestDto: LoginRequestDTO(username=asep, password=$2a$10$PiD9PFiZbNQ46nFvDBbB7OtRVbB/O3psZXL3rtyq5gk.DSA5cfjmC)
+2024-05-27 20:54:01,919 INFO c.e.B.c.AuthController [http-nio-8080-exec-3] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep, password=$2a$10$9Pt907cPs4Eq7Td/AnuT..URyXXGuaZM4k76GFnlHRCw/go1FQb8m, authorities=[CUSTOMER]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[CUSTOMER]]
+2024-05-27 20:55:05,895 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27 20:55:05,899 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-27 20:55:05,905 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-27 20:55:13,837 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 6240 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-27 20:55:13,844 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-27 20:55:16,428 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27 20:55:16,638 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 184 ms. Found 5 JPA repository interfaces.
+2024-05-27 20:55:18,323 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-27 20:55:18,357 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-27 20:55:18,363 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-27 20:55:18,363 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-27 20:55:18,545 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-27 20:55:18,548 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4588 ms
+2024-05-27 20:55:18,929 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27 20:55:19,136 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-27 20:55:19,262 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-27 20:55:19,992 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27 20:55:20,054 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-27 20:55:20,418 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c421123
+2024-05-27 20:55:20,424 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-27 20:55:20,511 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-27 20:55:22,779 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27 20:55:22,953 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27 20:55:23,928 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-27 20:55:25,142 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27 20:55:25,775 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5faa0c51, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@404d90c5, org.springframework.security.web.context.SecurityContextHolderFilter@5739b804, org.springframework.security.web.header.HeaderWriterFilter@7cb9295f, org.springframework.web.filter.CorsFilter@4bd1541f, org.springframework.security.web.authentication.logout.LogoutFilter@382fba37, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@260fffec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6adee80f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@180466a9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78f18a87, org.springframework.security.web.session.SessionManagementFilter@3ef8de39, org.springframework.security.web.access.ExceptionTranslationFilter@298154d4, org.springframework.security.web.access.intercept.AuthorizationFilter@3f040f9e]
+2024-05-27 20:55:26,423 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-27 20:55:26,460 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-27 20:55:26,482 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 13.885 seconds (process running for 15.116)
+2024-05-27 20:55:40,954 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-27 20:55:40,955 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-27 20:55:40,957 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-05-27 20:56:12,273 INFO c.e.B.c.AuthController [http-nio-8080-exec-3] loginRequestDto: LoginRequestDTO(username=asep1, password=12345678)
