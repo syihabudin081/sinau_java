@@ -1,0 +1,37 @@
+2024-04-25 15:43:31,125 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.example.Binarfud.model.Merchant` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('940df57f-19bd-44dc-b43a-a71e7228747e')]
+2024-04-25 15:43:33,133 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.example.Binarfud.model.Merchant` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('940df57f-19bd-44dc-b43a-a71e7228747e')]
+2024-04-25 15:43:33,679 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.example.Binarfud.model.Merchant` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('940df57f-19bd-44dc-b43a-a71e7228747e')]
+2024-04-25 15:43:56,122 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2024-04-25 15:43:58,104 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2024-04-25 15:43:59,996 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2024-04-25 15:47:39,100 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25 15:47:39,104 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-04-25 15:47:39,109 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-04-25 15:47:44,873 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 21048 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-25 15:47:44,878 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 15:47:45,879 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-25 15:47:45,998 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 97 ms. Found 4 JPA repository interfaces.
+2024-04-25 15:47:46,865 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-25 15:47:46,879 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-25 15:47:46,882 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-25 15:47:46,883 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-25 15:47:46,976 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-25 15:47:46,980 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2007 ms
+2024-04-25 15:47:47,190 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-25 15:47:47,453 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11d2dd2d
+2024-04-25 15:47:47,454 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-25 15:47:47,523 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-25 15:47:47,637 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-25 15:47:47,713 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-25 15:47:48,247 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-25 15:47:49,474 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-25 15:47:49,478 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-25 15:47:49,862 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-25 15:47:50,278 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-25 15:47:50,300 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-25 15:47:50,310 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 6.275 seconds (process running for 6.834)
+2024-04-25 15:48:04,105 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-25 15:48:04,106 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-04-25 15:48:04,108 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-04-25 15:48:04,258 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.example.Binarfud.model.Merchant` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('940df57f-19bd-44dc-b43a-a71e7228747e')]
+2024-04-25 15:48:44,106 INFO c.e.B.s.ProductService [http-nio-8080-exec-7] Product saved: Product(id=997a85fa-855d-42e9-89b1-d89fd4087cac, product_name=Super Besar 1, price=50000, merchant=Merchant(id=940df57f-19bd-44dc-b43a-a71e7228747e, merchantName=null, merchantLocation=null, open=false))

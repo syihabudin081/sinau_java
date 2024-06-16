@@ -1,0 +1,38 @@
+2024-05-03 20:51:48,757 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-03 20:51:48,763 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-03 20:51:48,770 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-03 20:51:56,180 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 27576 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4)
+2024-05-03 20:51:56,186 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-03 20:51:57,673 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-03 20:51:57,831 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 133 ms. Found 5 JPA repository interfaces.
+2024-05-03 20:51:59,022 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-03 20:51:59,040 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-03 20:51:59,045 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-03 20:51:59,045 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-03 20:51:59,160 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-03 20:51:59,165 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2884 ms
+2024-05-03 20:51:59,614 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-03 20:51:59,719 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-03 20:51:59,794 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-03 20:52:00,144 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-03 20:52:00,183 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-03 20:52:00,497 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35e2b89f
+2024-05-03 20:52:00,500 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-03 20:52:00,556 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-03 20:52:02,143 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-03 20:52:02,341 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-03 20:52:02,821 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-03 20:52:03,053 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-03 20:52:03,875 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-03 20:52:03,945 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-03 20:52:03,974 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 8.865 seconds (process running for 9.68)
+2024-05-03 20:52:06,548 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-03 20:52:06,549 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-05-03 20:52:06,551 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-05-03 20:52:06,732 INFO c.e.B.s.MerchantService [http-nio-8080-exec-2] Count of merchants in location Jakarta: 2
+2024-05-03 20:52:08,107 INFO c.e.B.s.MerchantService [http-nio-8080-exec-3] Count of merchants in location Jakarta: 2
+2024-05-03 20:52:09,069 INFO c.e.B.s.MerchantService [http-nio-8080-exec-4] Count of merchants in location Jakarta: 2
+2024-05-03 20:52:10,014 INFO c.e.B.s.MerchantService [http-nio-8080-exec-5] Count of merchants in location Jakarta: 2
+2024-05-03 20:52:18,879 INFO c.e.B.s.ProductService [http-nio-8080-exec-6] Products: Page 1 of 1 containing com.example.Binarfud.model.Product instances
+2024-05-03 20:52:29,836 INFO c.e.B.s.MerchantService [http-nio-8080-exec-7] Merchants: [Merchant(id=09f45856-76a4-4375-b6e9-70e269351dfc, merchantName=Mie Gacoan, merchantLocation=Jakarta, open=true), Merchant(id=f2521ce3-36b5-4718-a87c-65c9dc733966, merchantName=A&W, merchantLocation=Jakarta, open=true), Merchant(id=219d4a5d-874e-4f02-a080-e83d847cb95f, merchantName=Batagor Mang Asep, merchantLocation=Bandung, open=true), Merchant(id=898e13e8-4430-4c6c-bb16-9de60aa7f422, merchantName=Cilok Mang Asep Racing, merchantLocation=Bandung, open=true), Merchant(id=4a5e66c6-cb15-401e-beec-c1a291b664c4, merchantName=KFC, merchantLocation=Jogja, open=true)]
+2024-05-03 20:52:53,202 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]

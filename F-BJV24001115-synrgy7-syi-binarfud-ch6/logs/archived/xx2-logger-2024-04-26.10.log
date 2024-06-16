@@ -1,0 +1,33 @@
+2024-04-26 20:32:51,464 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 27356 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-04-26 20:32:51,485 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-04-26 20:32:53,414 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-26 20:32:53,588 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 152 ms. Found 4 JPA repository interfaces.
+2024-04-26 20:32:55,310 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-04-26 20:32:55,335 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-26 20:32:55,342 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-04-26 20:32:55,343 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-26 20:32:55,509 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-04-26 20:32:55,512 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3847 ms
+2024-04-26 20:32:55,804 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-04-26 20:32:56,138 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e7b265e
+2024-04-26 20:32:56,140 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-04-26 20:32:56,232 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-26 20:32:56,373 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-26 20:32:56,468 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-04-26 20:32:57,120 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-26 20:32:59,006 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-26 20:32:59,013 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-26 20:32:59,671 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-26 20:33:00,412 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-04-26 20:33:00,458 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-04-26 20:33:00,475 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 10.363 seconds (process running for 11.136)
+2024-04-26 20:33:48,225 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-26 20:33:48,225 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-04-26 20:33:48,228 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-04-26 20:33:48,578 INFO c.e.B.s.MerchantService [http-nio-8080-exec-1] Merchants: []
+2024-04-26 20:33:56,549 INFO c.e.B.s.MerchantService [http-nio-8080-exec-6] Merchant saved: Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true)
+2024-04-26 20:34:08,148 INFO c.e.B.s.MerchantService [http-nio-8080-exec-4] Merchant saved: Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=KFC, merchantLocation=Jakarta, open=true)
+2024-04-26 20:34:11,482 INFO c.e.B.s.MerchantService [http-nio-8080-exec-9] Merchants: [Merchant(id=c07ba518-f3cb-41e7-8e55-0ad7b1412a85, merchantName=A&W, merchantLocation=Jakarta, open=true), Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=KFC, merchantLocation=Jakarta, open=true)]
+2024-04-26 20:34:24,843 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.example.Binarfud.model.Merchant` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('940df57f-19bd-44dc-b43a-a71e7228747e')]
+2024-04-26 20:35:12,878 INFO c.e.B.s.ProductService [http-nio-8080-exec-8] Product saved: Product(id=40eec67b-3cac-498d-8c28-4a40abebb6ff, product_name=Super Besar 1, price=50000, merchant=Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=null, merchantLocation=null, open=false))
+2024-04-26 20:35:21,073 INFO c.e.B.s.ProductService [http-nio-8080-exec-5] Products: [Product(id=40eec67b-3cac-498d-8c28-4a40abebb6ff, product_name=Super Besar 1, price=50000, merchant=Merchant(id=c0d6259d-d798-4865-92c4-51386d68176d, merchantName=KFC, merchantLocation=Jakarta, open=true))]
