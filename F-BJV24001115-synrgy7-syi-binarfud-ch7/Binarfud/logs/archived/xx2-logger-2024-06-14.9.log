@@ -1,0 +1,95 @@
+2024-06-14 14:45:19,172 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:19,174 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:19,174 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:20,324 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:20,324 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:20,324 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:21,375 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:21,378 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:21,378 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:22,284 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:22,312 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:22,312 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:23,212 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:23,212 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:23,212 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:24,349 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:24,349 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:24,349 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:25,288 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:25,288 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:25,290 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:26,280 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:26,280 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:26,280 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:27,365 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:27,365 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:27,365 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:28,443 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:28,443 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:28,443 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:29,660 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:29,660 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:29,660 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:30,715 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:30,715 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:30,715 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:31,857 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:31,857 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:31,857 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:32,788 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:32,788 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:32,788 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:33,887 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:33,887 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:33,887 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:34,932 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:34,932 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:34,932 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:35,908 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:35,929 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:35,933 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:36,986 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:36,986 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:36,986 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:37,923 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:37,925 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:37,925 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:39,153 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:39,153 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:39,153 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:40,141 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:40,141 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:40,141 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:41,296 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:41,297 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:41,297 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:42,182 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:42,182 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:42,182 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:43,181 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:43,181 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:43,181 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:44,320 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:44,321 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:44,321 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:45,544 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:45,544 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:45,544 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:46,454 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:46,454 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:46,454 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:47,466 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:47,466 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:47,469 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:48,295 INFO o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Node -1 disconnected.
+2024-06-14 14:45:48,295 WARN o.a.k.c.NetworkClient [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-14 14:45:48,295 WARN o.a.k.c.NetworkClient$DefaultMetadataUpdater [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2024-06-14 14:45:49,147 INFO o.a.k.c.p.KafkaProducer [SpringApplicationShutdownHook] [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2024-06-14 14:45:49,154 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Metrics scheduler closed
+2024-06-14 14:45:49,157 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-14 14:45:49,157 INFO o.a.k.c.m.Metrics [SpringApplicationShutdownHook] Metrics reporters closed
+2024-06-14 14:45:49,159 INFO o.a.k.c.u.AppInfoParser [SpringApplicationShutdownHook] App info kafka.producer for producer-1 unregistered
+2024-06-14 14:45:49,180 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14 14:45:49,233 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-14 14:45:49,266 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

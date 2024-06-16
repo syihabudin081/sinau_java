@@ -1,0 +1,37 @@
+2024-05-01 21:45:49,432 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:45:49,450 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-01 21:45:49,464 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-01 21:45:52,663 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 18112 (D:\synrgy\sinau_java\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\Binarfud)
+2024-05-01 21:45:52,666 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-01 21:45:53,735 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-01 21:45:53,847 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91 ms. Found 4 JPA repository interfaces.
+2024-05-01 21:45:54,771 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-01 21:45:54,785 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:45:54,789 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-01 21:45:54,790 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-01 21:45:54,871 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-01 21:45:54,875 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2121 ms
+2024-05-01 21:45:55,160 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-01 21:45:55,285 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-01 21:45:55,358 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-01 21:45:55,687 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-01 21:45:55,725 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-01 21:45:55,977 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4416e18d
+2024-05-01 21:45:55,985 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-01 21:45:56,152 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-01 21:45:57,436 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-01 21:45:57,457 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-05-01 21:45:57,457 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "fkrws2q0si6oyd6il8gqe2aennc" of relation "order_detail" does not exist, skipping
+2024-05-01 21:45:57,458 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-05-01 21:45:57,459 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "fkb8bg2bkty0oksa3wiq5mp5qnc" of relation "order_detail" does not exist, skipping
+2024-05-01 21:45:57,460 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-05-01 21:45:57,460 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "fk32ql8ubntj5uh44ph9659tiih" of relation "orders" does not exist, skipping
+2024-05-01 21:45:57,461 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-05-01 21:45:57,461 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "fkk47qmalv2pg906heielteubu7" of relation "product" does not exist, skipping
+2024-05-01 21:45:57,482 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-05-01 21:45:57,483 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] drop cascades to constraint product_merchant_id_fkey on table product
+2024-05-01 21:45:57,604 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-01 21:45:58,001 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-01 21:45:58,370 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-01 21:45:58,390 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-01 21:45:58,400 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 6.559 seconds (process running for 7.134)

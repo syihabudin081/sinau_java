@@ -1,0 +1,59 @@
+2024-06-02 22:00:26,236 INFO c.e.B.c.AuthController [http-nio-8080-exec-9] signUpRequest: SignUpRequestDTO(username=asep3, email=asep@gmail.com, password=123, roles=[com.example.Binarfud.model.Role@6e58dea7])
+2024-06-02 22:01:02,964 INFO c.e.B.c.AuthController [http-nio-8080-exec-10] loginRequestDto: LoginRequestDTO(username=asep3, password=123)
+2024-06-02 22:01:03,178 INFO c.e.B.c.AuthController [http-nio-8080-exec-10] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep3, password=$2a$10$mbiVnoZKRVTFVWDXfG3TbeAtGYnK6AnVsuDCPH6IkcFWvzJ0IozOe, authorities=[ROLE_MERCHANT]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_MERCHANT]]
+2024-06-02 22:01:20,957 INFO c.e.B.s.MerchantService [http-nio-8080-exec-1] Merchant saved: Merchant(id=cd147482-8ee6-48b0-9587-0ea5d2eb2bba, merchantName=Cilok Mang Asep Racing 2, merchantLocation=Bandung, open=true)
+2024-06-02 22:11:29,845 INFO c.e.B.c.AuthController [http-nio-8080-exec-4] loginRequestDto: LoginRequestDTO(username=asep3, password=123)
+2024-06-02 22:11:30,344 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1f5d7fd5 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,373 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2bbf4593 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,379 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7b3ddb79 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,383 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@21628c79 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,385 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7cd3a526 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,389 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2d91f4f2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,392 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@38e2042a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,396 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@dd6560b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,402 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6c4d2802 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:30,406 WARN c.z.h.p.PoolBase [http-nio-8080-exec-4] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4ed9671d (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-02 22:11:31,252 INFO c.e.B.c.AuthController [http-nio-8080-exec-4] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep3, password=$2a$10$mbiVnoZKRVTFVWDXfG3TbeAtGYnK6AnVsuDCPH6IkcFWvzJ0IozOe, authorities=[ROLE_MERCHANT]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_MERCHANT]]
+2024-06-02 22:13:00,814 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 22:13:00,863 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 22:13:01,176 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 22:13:07,827 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 50284 (D:\synrgy\Binarfud\Binarfud\target\classes started by hp in D:\synrgy\Binarfud\Binarfud)
+2024-06-02 22:13:07,830 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 22:13:09,807 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 22:13:09,974 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 140 ms. Found 7 JPA repository interfaces.
+2024-06-02 22:13:11,140 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-02 22:13:11,165 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 22:13:11,170 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-02 22:13:11,170 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 22:13:11,308 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 22:13:11,311 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3404 ms
+2024-06-02 22:13:11,552 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 22:13:11,686 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-02 22:13:11,744 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-02 22:13:12,126 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 22:13:12,168 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 22:13:12,962 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51141f64
+2024-06-02 22:13:12,964 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 22:13:13,053 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-02 22:13:14,585 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 22:13:15,891 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 22:13:16,789 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-02 22:13:17,756 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 22:13:18,598 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@300cdf3f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b75b77d, org.springframework.security.web.context.SecurityContextHolderFilter@686a192d, org.springframework.security.web.header.HeaderWriterFilter@4cc5c43b, org.springframework.web.filter.CorsFilter@4552f89f, org.springframework.security.web.authentication.logout.LogoutFilter@4b76a0f4, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4e2f6452, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@45957b8f, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@788fa91f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77b987f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f14ce3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2400673b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59b7cbec, org.springframework.security.web.access.ExceptionTranslationFilter@2220780d, org.springframework.security.web.access.intercept.AuthorizationFilter@4cf93f80]
+2024-06-02 22:13:19,116 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 22:13:19,117 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-02 22:13:19,118 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 22:13:19,118 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-02 22:13:19,119 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 22:13:19,119 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-02 22:13:19,119 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 22:13:19,119 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-02 22:13:19,119 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 22:13:19,120 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-02 22:13:19,197 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 22:13:19,230 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-02 22:13:19,251 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 12.316 seconds (process running for 12.973)
+2024-06-02 22:13:22,084 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 22:13:22,085 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 22:13:22,087 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-06-02 22:13:40,250 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-4] Init duration for springdoc-openapi is: 965 ms

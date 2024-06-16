@@ -1,0 +1,33 @@
+2024-06-02 02:59:59,551 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h19m40s68ms372µs).
+2024-06-02 15:05:41,646 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h5m45s51ms606µs600ns).
+2024-06-02 15:32:38,172 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplicationTests using Java 17.0.2 with PID 21584 (started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-06-02 15:32:38,175 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 15:32:39,715 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 15:32:39,835 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 104 ms. Found 6 JPA repository interfaces.
+2024-06-02 15:32:40,756 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 15:32:40,918 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-02 15:32:41,007 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-02 15:32:41,507 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 15:32:41,576 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 15:32:41,897 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f49e81a
+2024-06-02 15:32:41,897 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 15:32:41,995 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-02 15:32:43,529 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 15:32:43,770 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 15:32:44,394 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-02 15:32:45,223 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 15:32:45,900 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f9a7d6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f96ef2, org.springframework.security.web.context.SecurityContextHolderFilter@40eb85e9, org.springframework.security.web.header.HeaderWriterFilter@5434de8, org.springframework.web.filter.CorsFilter@12039ae0, org.springframework.security.web.authentication.logout.LogoutFilter@975f349, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4b6cb083, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@11101f62, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@713935c8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2b5a659f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55e073c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1768c77f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fb320de, org.springframework.security.web.access.ExceptionTranslationFilter@4f6938cb, org.springframework.security.web.access.intercept.AuthorizationFilter@6988dc14]
+2024-06-02 15:32:46,500 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 15:32:46,500 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Ant [pattern='/webjars/**']
+2024-06-02 15:32:46,501 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Ant [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 15:32:46,501 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Ant [pattern='/images/**']
+2024-06-02 15:32:46,501 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 15:32:46,501 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Ant [pattern='/css/**']
+2024-06-02 15:32:46,501 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Ant [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 15:32:46,501 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Ant [pattern='/assets/**']
+2024-06-02 15:32:46,504 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 15:32:46,504 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Ant [pattern='/favicon.ico']
+2024-06-02 15:32:46,578 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplicationTests in 8.989 seconds (process running for 10.717)
+2024-06-02 15:32:47,284 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 15:32:47,292 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 15:32:47,301 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

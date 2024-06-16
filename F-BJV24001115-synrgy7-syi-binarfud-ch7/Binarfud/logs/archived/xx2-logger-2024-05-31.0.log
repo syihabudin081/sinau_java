@@ -1,0 +1,42 @@
+2024-05-31 00:04:56,167 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplicationTests using Java 17.0.2 with PID 17772 (started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-31 00:04:56,174 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-31 00:04:57,639 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-31 00:04:57,771 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113 ms. Found 5 JPA repository interfaces.
+2024-05-31 00:04:58,618 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-31 00:04:58,738 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-31 00:04:58,823 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-31 00:04:59,299 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-31 00:04:59,355 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-31 00:04:59,665 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@69499c6f
+2024-05-31 00:04:59,669 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-31 00:04:59,780 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-31 00:05:01,213 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-31 00:05:01,468 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 00:05:01,961 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-31 00:05:02,731 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-31 00:05:03,306 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d4df4ce, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@470ce6e7, org.springframework.security.web.context.SecurityContextHolderFilter@45b63133, org.springframework.security.web.header.HeaderWriterFilter@18e7b33e, org.springframework.web.filter.CorsFilter@39a8905b, org.springframework.security.web.authentication.logout.LogoutFilter@26a2106e, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@70916715, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25c6f0fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@531455c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c8174ce, org.springframework.security.web.session.SessionManagementFilter@59960ae9, org.springframework.security.web.access.ExceptionTranslationFilter@7bcd497, org.springframework.security.web.access.intercept.AuthorizationFilter@304f4888]
+2024-05-31 00:05:03,900 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplicationTests in 8.288 seconds (process running for 9.716)
+2024-05-31 00:05:04,644 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 00:05:04,648 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-31 00:05:04,648 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-31 00:17:20,708 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplicationTests using Java 17.0.2 with PID 3208 (started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-31 00:17:20,711 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-31 00:17:22,338 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-31 00:17:22,460 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 106 ms. Found 5 JPA repository interfaces.
+2024-05-31 00:17:23,388 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-31 00:17:23,503 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-31 00:17:23,553 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-31 00:17:24,040 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-31 00:17:24,099 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-31 00:17:24,407 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@186481d4
+2024-05-31 00:17:24,411 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-31 00:17:24,497 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-31 00:17:25,890 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-31 00:17:26,073 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 00:17:26,631 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-31 00:17:27,324 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-31 00:17:27,877 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2762e9a7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b8e2ea7, org.springframework.security.web.context.SecurityContextHolderFilter@f2120d5, org.springframework.security.web.header.HeaderWriterFilter@299003eb, org.springframework.web.filter.CorsFilter@6b994b71, org.springframework.security.web.authentication.logout.LogoutFilter@a9e31e8, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@ae2227, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31c9bb2f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@53bc8c7e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6fb87b73, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bcff08c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52a1d6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f2788f2, org.springframework.security.web.session.SessionManagementFilter@59d99269, org.springframework.security.web.access.ExceptionTranslationFilter@3bc2146c, org.springframework.security.web.access.intercept.AuthorizationFilter@2026af0]
+2024-05-31 00:17:28,372 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplicationTests in 8.225 seconds (process running for 9.798)
+2024-05-31 00:17:29,005 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 00:17:29,010 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-31 00:17:29,013 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

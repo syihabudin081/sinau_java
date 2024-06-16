@@ -1,0 +1,40 @@
+2024-05-17 14:48:46,459 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-5] Order details: Optional.empty
+2024-05-17 14:48:46,646 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-5] {orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, orderId=ddaec557-5c63-46b4-8262-d458edf4a2a9, userName=asep}
+2024-05-17 14:49:57,721 INFO c.e.B.s.OrderDetailService [http-nio-8080-exec-7] Order details: [FAILED toString()]
+2024-05-17 14:49:57,744 WARN o.s.w.s.m.s.DefaultHandlerExceptionResolver [http-nio-8080-exec-7] Ignoring exception, response committed already: org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)
+2024-05-17 14:49:57,745 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: Infinite recursion (StackOverflowError)]
+2024-05-17 14:52:54,171 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-17 14:52:54,203 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-17 14:52:54,220 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-17 14:53:00,167 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 3400 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4)
+2024-05-17 14:53:00,173 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-17 14:53:01,680 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-17 14:53:01,789 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 95 ms. Found 5 JPA repository interfaces.
+2024-05-17 14:53:02,737 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-17 14:53:02,754 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-17 14:53:02,759 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-17 14:53:02,759 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-17 14:53:02,881 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-17 14:53:02,884 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2627 ms
+2024-05-17 14:53:03,151 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-17 14:53:03,309 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-17 14:53:03,388 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-17 14:53:03,881 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-17 14:53:03,971 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-17 14:53:04,392 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1209a0f
+2024-05-17 14:53:04,393 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-17 14:53:04,451 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-17 14:53:05,895 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-17 14:53:06,075 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-17 14:53:06,473 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-17 14:53:06,782 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-17 14:53:07,416 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-17 14:53:07,442 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-17 14:53:07,456 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 8.138 seconds (process running for 8.834)
+2024-05-17 14:53:14,314 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-17 14:53:14,314 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-05-17 14:53:14,315 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-05-17 14:53:14,500 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-2] Order details: Optional.empty
+2024-05-17 14:53:15,871 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-2] {orderDetails=net.sf.jasperreports.engine.data.JRBeanCollectionDataSource@6aa7927e, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, orderId=ddaec557-5c63-46b4-8262-d458edf4a2a9, userName=asep}
+2024-05-17 14:53:18,103 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-7] Order details: Optional.empty
+2024-05-17 14:53:18,266 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-7] {orderDetails=net.sf.jasperreports.engine.data.JRBeanCollectionDataSource@2ef7a8d6, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, orderId=ddaec557-5c63-46b4-8262-d458edf4a2a9, userName=asep}

@@ -1,0 +1,32 @@
+2024-05-31 02:01:50,034 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 2324 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-31 02:01:50,040 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-31 02:01:51,603 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-31 02:01:51,741 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 117 ms. Found 6 JPA repository interfaces.
+2024-05-31 02:01:52,838 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-31 02:01:52,872 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-31 02:01:52,876 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-31 02:01:52,876 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-31 02:01:53,009 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-31 02:01:53,017 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2906 ms
+2024-05-31 02:01:53,293 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-31 02:01:53,436 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-31 02:01:53,502 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-31 02:01:53,992 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-31 02:01:54,033 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-31 02:01:54,262 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a466dd
+2024-05-31 02:01:54,266 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-31 02:01:54,316 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-31 02:01:55,697 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-31 02:01:55,869 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 02:01:56,403 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-31 02:01:57,458 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-31 02:01:58,150 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1dd17c0c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@441e789e, org.springframework.security.web.context.SecurityContextHolderFilter@6466e599, org.springframework.security.web.header.HeaderWriterFilter@5ddd3fbd, org.springframework.web.filter.CorsFilter@74a680d3, org.springframework.security.web.authentication.logout.LogoutFilter@7b4e5982, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@71842e18, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a15e4fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@515c3dd2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cb42a5a, org.springframework.security.web.session.SessionManagementFilter@30d4d6fb, org.springframework.security.web.access.ExceptionTranslationFilter@66ee4640, org.springframework.security.web.access.intercept.AuthorizationFilter@27dfd939]
+2024-05-31 02:01:58,632 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-31 02:01:58,669 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-31 02:01:58,683 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 9.438 seconds (process running for 10.098)
+2024-05-31 02:02:03,901 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-31 02:02:03,901 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-31 02:02:03,901 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-05-31 02:11:15,016 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-31 02:11:15,219 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-31 02:11:15,304 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

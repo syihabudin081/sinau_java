@@ -1,0 +1,2 @@
+2024-05-27 20:56:18,494 INFO c.e.B.c.AuthController [http-nio-8080-exec-3] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep1, password=$2a$10$ZzlvImsg3v0KfWs7sWgd8umVU.IWm17.IV7e3iwuKMDntBXwurwa., authorities=[CUSTOMER]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[CUSTOMER]]
+2024-05-27 23:45:37,133 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m44s813ms887µs).

@@ -1,0 +1,61 @@
+2024-06-11 23:09:58,248 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:09:58,260 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:09:59,282 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:09:59,282 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:09:59,642 INFO o.a.k.c.a.i.AdminMetadataManager [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+2024-06-11 23:09:59,642 ERROR o.s.c.l.LogAccessor [main] Could not configure topics
+org.springframework.kafka.KafkaException: Timed out waiting to get existing topics
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:520)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.springframework.kafka.core.KafkaAdmin.checkPartitions(KafkaAdmin.java:499)
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:392)
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258)
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:986)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.Binarfud.BinarfudApplication.main(BinarfudApplication.java:12)
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180)
+	at org.springframework.kafka.core.KafkaAdmin.lambda$checkPartitions$11(KafkaAdmin.java:502)
+	... 15 common frames omitted
+2024-06-11 23:10:00,299 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:00,301 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:01,186 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:01,189 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:02,388 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:02,389 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:03,385 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:03,387 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:04,389 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:04,390 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:05,502 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:05,503 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:06,377 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:06,378 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:07,259 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:07,266 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:08,382 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:08,383 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:09,273 INFO o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2024-06-11 23:10:09,274 WARN o.a.k.c.NetworkClient [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available.
+2024-06-11 23:10:09,654 INFO o.a.k.c.a.KafkaAdminClient$AdminClientRunnable [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Forcing a hard I/O thread shutdown. Requests in progress will be aborted.
+2024-06-11 23:10:09,660 INFO o.a.k.c.u.AppInfoParser [kafka-admin-client-thread | adminclient-1] App info kafka.admin.client for adminclient-1 unregistered
+2024-06-11 23:10:09,666 INFO o.a.k.c.a.i.AdminMetadataManager [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Metadata update failed
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+2024-06-11 23:10:09,667 INFO o.a.k.c.a.KafkaAdminClient$AdminClientRunnable [kafka-admin-client-thread | adminclient-1] [AdminClient clientId=adminclient-1] Timed out 2 remaining operation(s) during close.
+2024-06-11 23:10:09,682 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-11 23:10:09,705 INFO o.a.k.c.m.Metrics [kafka-admin-client-thread | adminclient-1] Metrics scheduler closed
+2024-06-11 23:10:09,711 INFO o.a.k.c.m.Metrics [kafka-admin-client-thread | adminclient-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-11 23:10:09,714 INFO o.a.k.c.m.Metrics [kafka-admin-client-thread | adminclient-1] Metrics reporters closed
+2024-06-11 23:10:09,742 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-11 23:10:09,811 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 75.232 seconds (process running for 78.446)

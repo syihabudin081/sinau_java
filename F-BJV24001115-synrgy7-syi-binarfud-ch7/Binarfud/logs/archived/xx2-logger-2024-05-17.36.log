@@ -1,0 +1,38 @@
+2024-05-17 16:11:29,098 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-17 16:11:29,101 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-17 16:11:29,102 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-17 16:11:29,399 INFO c.e.B.s.OrdersService [http-nio-8080-exec-1] Orders: [FAILED toString()]
+2024-05-17 16:11:36,977 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-3] orderDetails: [FAILED toString()]
+2024-05-17 16:13:33,460 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-17 16:13:33,466 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-17 16:13:33,477 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-17 16:13:39,794 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 16308 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch4)
+2024-05-17 16:13:39,799 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-17 16:13:41,078 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-17 16:13:41,197 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 104 ms. Found 5 JPA repository interfaces.
+2024-05-17 16:13:42,095 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-17 16:13:42,115 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-17 16:13:42,119 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-17 16:13:42,121 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-17 16:13:42,241 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-17 16:13:42,242 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2377 ms
+2024-05-17 16:13:42,482 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-17 16:13:42,615 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-17 16:13:42,684 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-17 16:13:43,175 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-17 16:13:43,246 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-17 16:13:43,538 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78545d40
+2024-05-17 16:13:43,541 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-17 16:13:43,613 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-17 16:13:45,116 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-17 16:13:45,269 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-17 16:13:45,637 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-17 16:13:45,916 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-17 16:13:46,535 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-17 16:13:46,566 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-17 16:13:46,584 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 7.594 seconds (process running for 8.277)
+2024-05-17 16:13:49,169 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-17 16:13:49,169 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-17 16:13:49,172 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-05-17 16:13:49,469 INFO c.e.B.s.OrdersService [http-nio-8080-exec-1] Orders: [Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123))]
+2024-05-17 16:13:56,047 INFO c.e.B.s.InvoiceService [http-nio-8080-exec-3] orderDetails: {orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, quantity=[OrderDetail(id=3e1a4725-2413-409a-a9a3-c07c2d401a2d, quantity=1, totalPrice=50000.00, order=Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123)), product=Product(id=125cb798-403d-4126-94a4-36a20e9aa7a6, product_name=Fried Chicken Matcha, price=10000.00, merchant=Merchant(id=4a5e66c6-cb15-401e-beec-c1a291b664c4, merchantName=KFC, merchantLocation=Samarinda, open=true))), OrderDetail(id=cf48ed11-20ad-403d-8a3f-ae4e092528c6, quantity=2, totalPrice=20000.00, order=Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123)), product=Product(id=125cb798-403d-4126-94a4-36a20e9aa7a6, product_name=Fried Chicken Matcha, price=10000.00, merchant=Merchant(id=4a5e66c6-cb15-401e-beec-c1a291b664c4, merchantName=KFC, merchantLocation=Samarinda, open=true)))], orderId=ddaec557-5c63-46b4-8262-d458edf4a2a9, totalPrice=[OrderDetail(id=3e1a4725-2413-409a-a9a3-c07c2d401a2d, quantity=1, totalPrice=50000.00, order=Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123)), product=Product(id=125cb798-403d-4126-94a4-36a20e9aa7a6, product_name=Fried Chicken Matcha, price=10000.00, merchant=Merchant(id=4a5e66c6-cb15-401e-beec-c1a291b664c4, merchantName=KFC, merchantLocation=Samarinda, open=true))), OrderDetail(id=cf48ed11-20ad-403d-8a3f-ae4e092528c6, quantity=2, totalPrice=20000.00, order=Orders(id=ddaec557-5c63-46b4-8262-d458edf4a2a9, orderTime=2024-05-01 22:22:21.723788, destinationAddress=Jln Kemang No 11, completed=false, user=Users(id=9e905390-9255-4e02-8972-fbf9eb5e4490, username=asep, emailAddress=asep@gmail.com, password=123)), product=Product(id=125cb798-403d-4126-94a4-36a20e9aa7a6, product_name=Fried Chicken Matcha, price=10000.00, merchant=Merchant(id=4a5e66c6-cb15-401e-beec-c1a291b664c4, merchantName=KFC, merchantLocation=Samarinda, open=true)))], userName=asep}

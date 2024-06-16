@@ -1,0 +1,247 @@
+2024-06-16 17:10:27,927 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 6988 (D:\synrgy\Binarfud\Binarfud\target\classes started by hp in D:\synrgy\Binarfud\Binarfud)
+2024-06-16 17:10:27,932 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-16 17:10:29,580 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-16 17:10:29,808 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 209 ms. Found 7 JPA repository interfaces.
+2024-06-16 17:10:31,477 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-16 17:10:31,494 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-16 17:10:31,500 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-16 17:10:31,501 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-16 17:10:31,645 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-16 17:10:31,649 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3641 ms
+2024-06-16 17:10:32,076 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-16 17:10:32,268 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-16 17:10:32,381 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-16 17:10:33,016 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-16 17:10:33,088 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-16 17:10:34,154 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43778371
+2024-06-16 17:10:34,156 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-16 17:10:34,236 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-16 17:10:36,270 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-16 17:10:37,187 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-16 17:10:38,293 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-16 17:10:39,329 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-16 17:10:40,073 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a558335, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20c9b155, org.springframework.security.web.context.SecurityContextHolderFilter@6cdfd50a, org.springframework.security.web.header.HeaderWriterFilter@52031e42, org.springframework.web.filter.CorsFilter@154f5d37, org.springframework.security.web.authentication.logout.LogoutFilter@3015fc1b, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@5c65001c, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@476e4bb0, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@1f138b74, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c9542eb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@763b279, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73e2a3ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58c84be1, org.springframework.security.web.access.ExceptionTranslationFilter@563bbf74, org.springframework.security.web.access.intercept.AuthorizationFilter@392a40d9]
+2024-06-16 17:10:40,624 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-16 17:10:40,624 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-16 17:10:40,624 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-16 17:10:40,625 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-16 17:10:40,625 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-16 17:10:40,625 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-16 17:10:40,625 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-16 17:10:40,625 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-16 17:10:40,625 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-16 17:10:40,626 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-16 17:10:40,764 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-16 17:10:40,799 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-16 17:10:40,887 INFO o.a.k.c.c.AbstractConfig [main] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-binarfudgroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = binarfudgroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-06-16 17:10:41,155 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka version: 3.6.2
+2024-06-16 17:10:41,155 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka commitId: c4deed513057c94e
+2024-06-16 17:10:41,156 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka startTimeMs: 1718532641150
+2024-06-16 17:10:41,161 INFO o.a.k.c.c.KafkaConsumer [main] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Subscribed to topic(s): order
+2024-06-16 17:10:41,195 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 14.398 seconds (process running for 15.217)
+2024-06-16 17:10:41,939 INFO o.a.k.c.Metadata [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Cluster ID: uzENuvuPRe6Mjhk94roBwg
+2024-06-16 17:10:41,941 INFO o.a.k.c.c.i.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Discovered group coordinator host.docker.internal:9092 (id: 2147483647 rack: null)
+2024-06-16 17:10:41,943 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] (Re-)joining group
+2024-06-16 17:10:41,969 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Request joining group due to: need to re-join with the given member-id: consumer-binarfudgroup-1-b604ebda-9272-41d0-aa3a-aa0c294346fc
+2024-06-16 17:10:41,970 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-06-16 17:10:41,970 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] (Re-)joining group
+2024-06-16 17:10:41,983 INFO o.a.k.c.c.i.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Successfully joined group with generation Generation{generationId=5, memberId='consumer-binarfudgroup-1-b604ebda-9272-41d0-aa3a-aa0c294346fc', protocol='range'}
+2024-06-16 17:10:41,990 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Finished assignment for group at generation 5: {consumer-binarfudgroup-1-b604ebda-9272-41d0-aa3a-aa0c294346fc=Assignment(partitions=[order-0])}
+2024-06-16 17:10:42,001 INFO o.a.k.c.c.i.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Successfully synced group in generation Generation{generationId=5, memberId='consumer-binarfudgroup-1-b604ebda-9272-41d0-aa3a-aa0c294346fc', protocol='range'}
+2024-06-16 17:10:42,002 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Notifying assignor about the new Assignment(partitions=[order-0])
+2024-06-16 17:10:42,004 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Adding newly assigned partitions: order-0
+2024-06-16 17:10:42,018 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Setting offset for partition order-0 to the committed offset FetchPosition{offset=2, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[host.docker.internal:9092 (id: 0 rack: null)], epoch=0}}
+2024-06-16 17:10:42,019 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] binarfudgroup: partitions assigned: [order-0]
+2024-06-16 17:11:01,411 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-16 17:11:01,412 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-16 17:11:01,414 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-06-16 17:11:02,602 INFO c.e.B.s.OrdersService [http-nio-8080-exec-2] Order saved: Orders(id=474603e6-88c3-4e9c-aab1-cbbe21a8fa5d, orderTime=2024-06-16 17:11:02.23282, destinationAddress=Jln Kemang No 1, completed=false, user=Users(id=49327e1a-0699-4154-b919-94982b0f296c, username=null, emailAddress=null, password=null, verified=false, roles=[]))
+2024-06-16 17:11:02,626 INFO o.a.k.c.c.AbstractConfig [http-nio-8080-exec-2] ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2024-06-16 17:11:02,639 INFO o.a.k.c.p.KafkaProducer [http-nio-8080-exec-2] [Producer clientId=producer-1] Instantiated an idempotent producer.
+2024-06-16 17:11:02,655 INFO o.a.k.c.u.AppInfoParser$AppInfo [http-nio-8080-exec-2] Kafka version: 3.6.2
+2024-06-16 17:11:02,656 INFO o.a.k.c.u.AppInfoParser$AppInfo [http-nio-8080-exec-2] Kafka commitId: c4deed513057c94e
+2024-06-16 17:11:02,656 INFO o.a.k.c.u.AppInfoParser$AppInfo [http-nio-8080-exec-2] Kafka startTimeMs: 1718532662655
+2024-06-16 17:11:02,665 INFO o.a.k.c.Metadata [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] Cluster ID: uzENuvuPRe6Mjhk94roBwg
+2024-06-16 17:11:02,668 INFO o.a.k.c.p.i.TransactionManager [kafka-producer-network-thread | producer-1] [Producer clientId=producer-1] ProducerId set to 1001 with epoch 0
