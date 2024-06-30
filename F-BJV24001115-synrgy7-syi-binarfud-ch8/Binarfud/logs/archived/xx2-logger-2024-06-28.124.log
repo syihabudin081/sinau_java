@@ -1,0 +1,211 @@
+2024-06-28 20:06:36,996 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:06:37,001 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:06:39,955 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:06:39,956 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:06:42,909 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:06:42,910 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:06:45,926 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:06:45,927 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:06:49,219 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:06:49,219 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:06:50,223 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-28 20:06:50,224 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Request joining group due to: consumer pro-actively leaving the group
+2024-06-28 20:06:50,224 INFO o.a.k.c.c.KafkaConsumer [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Unsubscribed all topics or patterns and assigned partitions
+2024-06-28 20:06:50,228 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-06-28 20:06:50,228 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Request joining group due to: consumer pro-actively leaving the group
+2024-06-28 20:06:50,234 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics scheduler closed
+2024-06-28 20:06:50,234 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-06-28 20:06:50,235 INFO o.a.k.c.m.Metrics [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics reporters closed
+2024-06-28 20:06:50,243 INFO o.a.k.c.u.AppInfoParser [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] App info kafka.consumer for consumer-binarfudgroup-1 unregistered
+2024-06-28 20:06:50,245 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] binarfudgroup: Consumer stopped
+2024-06-28 20:06:50,287 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-28 20:06:50,306 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-28 20:06:50,620 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-28 20:09:12,394 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 20024 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch7\Binarfud\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch7\Binarfud)
+2024-06-28 20:09:12,399 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-28 20:09:14,701 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-28 20:09:14,869 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 148 ms. Found 7 JPA repository interfaces.
+2024-06-28 20:09:16,715 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-28 20:09:16,742 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-28 20:09:16,752 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-28 20:09:16,755 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-28 20:09:17,085 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-28 20:09:17,087 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4601 ms
+2024-06-28 20:09:17,385 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-28 20:09:17,606 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-28 20:09:17,694 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-28 20:09:18,254 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-28 20:09:18,322 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-28 20:09:20,685 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@118a4d5
+2024-06-28 20:09:20,687 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-28 20:09:20,877 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-28 20:09:22,965 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-28 20:09:24,562 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-28 20:09:25,492 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-28 20:09:26,750 INFO c.e.B.s.FCMInitializer [main] Firebase application initialized
+2024-06-28 20:09:27,008 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-28 20:09:27,912 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ffa60c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@646ba7be, org.springframework.security.web.context.SecurityContextHolderFilter@d181ca3, org.springframework.security.web.header.HeaderWriterFilter@136cd71b, org.springframework.web.filter.CorsFilter@41194707, org.springframework.security.web.authentication.logout.LogoutFilter@550a78ed, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4a1bb556, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@5b4fd31f, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@700596f9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54139bd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63f95ac1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14a7e16e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46969355, org.springframework.security.web.access.ExceptionTranslationFilter@44a1e5d2, org.springframework.security.web.access.intercept.AuthorizationFilter@42ffa0c8]
+2024-06-28 20:09:28,692 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-28 20:09:28,693 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-28 20:09:28,695 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-28 20:09:28,695 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-28 20:09:28,695 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-28 20:09:28,696 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-28 20:09:28,696 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-28 20:09:28,696 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-28 20:09:28,696 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-28 20:09:28,697 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-28 20:09:28,868 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-28 20:09:28,932 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-28 20:09:29,042 INFO o.a.k.c.c.AbstractConfig [main] ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-binarfudgroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = binarfudgroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-06-28 20:09:29,333 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka version: 3.6.2
+2024-06-28 20:09:29,334 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka commitId: c4deed513057c94e
+2024-06-28 20:09:29,334 INFO o.a.k.c.u.AppInfoParser$AppInfo [main] Kafka startTimeMs: 1719580169331
+2024-06-28 20:09:29,339 INFO o.a.k.c.c.KafkaConsumer [main] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Subscribed to topic(s): order
+2024-06-28 20:09:29,372 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 18.639 seconds (process running for 20.178)
+2024-06-28 20:09:30,369 INFO o.a.k.c.Metadata [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Cluster ID: uzENuvuPRe6Mjhk94roBwg
+2024-06-28 20:09:30,371 INFO o.a.k.c.c.i.AbstractCoordinator$FindCoordinatorResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Discovered group coordinator LAPTOP-0IHDEQKP:9092 (id: 2147483647 rack: null)
+2024-06-28 20:09:30,374 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] (Re-)joining group
+2024-06-28 20:09:30,417 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Request joining group due to: need to re-join with the given member-id: consumer-binarfudgroup-1-55311774-24f5-4c2b-a56b-dbc16427272f
+2024-06-28 20:09:30,418 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-06-28 20:09:30,418 INFO o.a.k.c.c.i.AbstractCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] (Re-)joining group
+2024-06-28 20:09:30,436 INFO o.a.k.c.c.i.AbstractCoordinator$JoinGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Successfully joined group with generation Generation{generationId=9, memberId='consumer-binarfudgroup-1-55311774-24f5-4c2b-a56b-dbc16427272f', protocol='range'}
+2024-06-28 20:09:30,444 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Finished assignment for group at generation 9: {consumer-binarfudgroup-1-55311774-24f5-4c2b-a56b-dbc16427272f=Assignment(partitions=[order-0])}
+2024-06-28 20:09:30,470 INFO o.a.k.c.c.i.AbstractCoordinator$SyncGroupResponseHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Successfully synced group in generation Generation{generationId=9, memberId='consumer-binarfudgroup-1-55311774-24f5-4c2b-a56b-dbc16427272f', protocol='range'}
+2024-06-28 20:09:30,471 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Notifying assignor about the new Assignment(partitions=[order-0])
+2024-06-28 20:09:30,478 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Adding newly assigned partitions: order-0
+2024-06-28 20:09:30,503 INFO o.a.k.c.c.i.ConsumerCoordinator [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Setting offset for partition order-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[LAPTOP-0IHDEQKP:9092 (id: 0 rack: null)], epoch=0}}
+2024-06-28 20:09:30,505 INFO o.s.c.l.LogAccessor [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] binarfudgroup: partitions assigned: [order-0]
+2024-06-28 20:09:40,097 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node -1 disconnected.
+2024-06-28 20:09:40,102 INFO o.a.k.c.NetworkClient [kafka-coordinator-heartbeat-thread | binarfudgroup] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:40,102 INFO o.a.k.c.NetworkClient [kafka-coordinator-heartbeat-thread | binarfudgroup] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Cancelled in-flight FETCH request with correlation id 29 due to node 0 being disconnected (elapsed time since creation: 781ms, elapsed time since send: 781ms, request timeout: 30000ms)
+2024-06-28 20:09:40,102 INFO o.a.k.c.NetworkClient [kafka-coordinator-heartbeat-thread | binarfudgroup] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Cancelled in-flight METADATA request with correlation id 31 due to node 0 being disconnected (elapsed time since creation: 533ms, elapsed time since send: 533ms, request timeout: 30000ms)
+2024-06-28 20:09:40,103 INFO o.a.k.c.NetworkClient [kafka-coordinator-heartbeat-thread | binarfudgroup] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 2147483647 disconnected.
+2024-06-28 20:09:40,104 INFO o.a.k.c.FetchSessionHandler [kafka-coordinator-heartbeat-thread | binarfudgroup] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Error sending fetch request (sessionId=1369549009, epoch=17) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-06-28 20:09:40,107 INFO o.a.k.c.c.i.AbstractCoordinator [kafka-coordinator-heartbeat-thread | binarfudgroup] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Group coordinator LAPTOP-0IHDEQKP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: coordinator unavailable. isDisconnected: true. Rediscovery will be attempted.
+2024-06-28 20:09:42,248 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:42,249 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:09:44,452 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:44,452 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:09:44,453 INFO o.a.k.c.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Error sending fetch request (sessionId=1369549009, epoch=INITIAL) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-06-28 20:09:46,728 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:46,729 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:09:49,183 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:49,184 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:09:52,171 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:52,172 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:09:55,315 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:55,315 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:09:55,316 INFO o.a.k.c.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Error sending fetch request (sessionId=1369549009, epoch=INITIAL) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-06-28 20:09:58,377 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:09:58,378 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:10:01,274 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:10:01,275 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:10:01,275 INFO o.a.k.c.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Error sending fetch request (sessionId=1369549009, epoch=INITIAL) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-06-28 20:10:04,528 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:10:04,529 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:10:04,529 INFO o.a.k.c.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Error sending fetch request (sessionId=1369549009, epoch=INITIAL) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-06-28 20:10:07,601 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:10:07,602 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.66.216:9092) could not be established. Broker may not be available.
+2024-06-28 20:10:10,748 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-28 20:10:10,749 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-28 20:10:10,749 INFO o.a.k.c.FetchSessionHandler [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Error sending fetch request (sessionId=1369549009, epoch=INITIAL) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null

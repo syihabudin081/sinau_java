@@ -1,0 +1,70 @@
+2024-06-30 20:23:03,600 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:03,610 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:06,653 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:06,653 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:09,714 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:09,714 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:12,776 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:12,776 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:14,524 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-30 20:23:14,528 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-30 20:23:14,738 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 205 ms
+2024-06-30 20:23:15,652 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:15,652 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:16,324 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@529e8533 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,332 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@638c07ee (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,333 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@f6470ae (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,333 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2975cb6c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,341 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7ddf4dce (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,344 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7eef96ec (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,347 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@52a2789f (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,349 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@550be70c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,353 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@52bd615e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:16,353 WARN c.z.h.p.PoolBase [http-nio-8080-exec-1] HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@50e7c513 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-06-30 20:23:18,620 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:18,620 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:20,931 INFO c.e.B.s.FCMService [http-nio-8080-exec-1] Sent message to token. Device token: dfQk1plhqapMzA-jY8o9kp:APA91bH5YATmHJck1zBh71Onrr7g3ld_C5jNfWXUW2bIfLe8wsCdA8wqqS62_0hSzHGtLS5oSqHQuh-R_QEmDi6tte6xR62DK_1M1h1j1nvzs2VncQKc5jKtWDNlaNdt1ZB4dHRU0Zcl, projects/binarfud-c8490/messages/f0712928-3adc-4e8a-b1aa-3ca5fffde5f8 msg {
+  "notification": {
+    "title": "Ronaldo Won The World Cup 2026 With Portugal",
+    "body": "Debate is over, ronaldo is officially the GOAT"
+  },
+  "androidConfig": {
+    "priority": "high",
+    "ttl": "120s",
+    "notification": {}
+  },
+  "apnsConfig": {
+    "payload": {
+      "aps": {}
+    }
+  },
+  "token": "dfQk1plhqapMzA-jY8o9kp:APA91bH5YATmHJck1zBh71Onrr7g3ld_C5jNfWXUW2bIfLe8wsCdA8wqqS62_0hSzHGtLS5oSqHQuh-R_QEmDi6tte6xR62DK_1M1h1j1nvzs2VncQKc5jKtWDNlaNdt1ZB4dHRU0Zcl"
+}
+2024-06-30 20:23:21,807 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:21,807 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:24,662 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:24,662 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:27,889 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:27,890 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:31,014 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:31,014 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:34,038 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:34,038 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:37,127 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:37,127 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:40,154 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:40,154 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:43,174 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:43,175 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:46,165 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:46,165 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:49,313 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:49,322 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:52,446 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:52,446 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:55,665 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:55,665 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.
+2024-06-30 20:23:58,657 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:23:58,657 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/10.200.83.88:9092) could not be established. Broker may not be available.
+2024-06-30 20:24:01,730 INFO o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Node 0 disconnected.
+2024-06-30 20:24:01,730 WARN o.a.k.c.NetworkClient [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [Consumer clientId=consumer-binarfudgroup-1, groupId=binarfudgroup] Connection to node 0 (LAPTOP-0IHDEQKP/172.30.144.1:9092) could not be established. Broker may not be available.

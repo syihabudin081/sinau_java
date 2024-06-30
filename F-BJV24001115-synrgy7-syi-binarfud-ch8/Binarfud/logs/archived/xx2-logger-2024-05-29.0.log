@@ -1,0 +1,36 @@
+2024-05-29 13:31:06,344 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18h17m44s72ms561µs700ns).
+2024-05-29 14:26:06,237 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m57s74ms779µs400ns).
+2024-05-29 14:27:08,372 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-29 14:27:08,484 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-05-29 14:27:08,533 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-05-29 21:49:58,480 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 27876 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-29 21:49:58,486 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-29 21:50:00,683 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-29 21:50:00,859 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 157 ms. Found 5 JPA repository interfaces.
+2024-05-29 21:50:02,652 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-29 21:50:02,676 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-29 21:50:02,683 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-29 21:50:02,683 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-29 21:50:02,908 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-29 21:50:02,910 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4339 ms
+2024-05-29 21:50:03,216 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-29 21:50:03,411 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-29 21:50:03,524 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-29 21:50:04,291 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-29 21:50:04,379 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-29 21:50:04,782 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4de91056
+2024-05-29 21:50:04,785 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-29 21:50:04,909 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-29 21:50:07,871 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-29 21:50:08,243 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-29 21:50:09,348 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-29 21:50:10,445 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-29 21:50:11,307 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@435b944c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@635900ef, org.springframework.security.web.context.SecurityContextHolderFilter@62fee9c3, org.springframework.security.web.header.HeaderWriterFilter@47d7792e, org.springframework.web.filter.CorsFilter@615d74e9, org.springframework.security.web.authentication.logout.LogoutFilter@31741bb6, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@470ad01c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3abe1c9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71586f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@648e25f2, org.springframework.security.web.session.SessionManagementFilter@4e791e53, org.springframework.security.web.access.ExceptionTranslationFilter@59f0ef6e, org.springframework.security.web.access.intercept.AuthorizationFilter@8551ee6]
+2024-05-29 21:50:12,186 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-29 21:50:12,245 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-29 21:50:12,266 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 14.938 seconds (process running for 16.497)
+2024-05-29 21:50:27,015 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 21:50:27,015 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-05-29 21:50:27,017 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-05-29 21:50:27,373 INFO c.e.B.c.AuthController [http-nio-8080-exec-1] loginRequestDto: LoginRequestDTO(username=asep1, password=12345678)
+2024-05-29 21:50:27,800 INFO c.e.B.c.AuthController [http-nio-8080-exec-1] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep1, password=$2a$10$ZzlvImsg3v0KfWs7sWgd8umVU.IWm17.IV7e3iwuKMDntBXwurwa., authorities=[CUSTOMER]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[CUSTOMER]]

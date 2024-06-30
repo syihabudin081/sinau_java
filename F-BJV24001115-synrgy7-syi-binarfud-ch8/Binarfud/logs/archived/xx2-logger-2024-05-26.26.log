@@ -1,0 +1,41 @@
+2024-05-26 22:55:27,480 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 11332 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch5)
+2024-05-26 22:55:27,485 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-05-26 22:55:28,861 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-26 22:55:28,994 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 112 ms. Found 5 JPA repository interfaces.
+2024-05-26 22:55:29,848 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-05-26 22:55:29,873 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-26 22:55:29,876 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-05-26 22:55:29,877 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-26 22:55:29,970 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-05-26 22:55:29,972 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2435 ms
+2024-05-26 22:55:30,171 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-26 22:55:30,239 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-26 22:55:30,285 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-05-26 22:55:30,635 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-26 22:55:30,669 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-26 22:55:31,078 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f9a7684
+2024-05-26 22:55:31,083 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-26 22:55:31,147 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-26 22:55:32,422 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-26 22:55:32,549 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-26 22:55:33,112 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-26 22:55:33,798 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-26 22:55:34,206 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5936e4ba, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60ab906e, org.springframework.security.web.context.SecurityContextHolderFilter@4cde5d66, org.springframework.security.web.header.HeaderWriterFilter@3e8cf854, org.springframework.web.filter.CorsFilter@8551ee6, org.springframework.security.web.authentication.logout.LogoutFilter@453d2a55, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@3af6c672, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e791e53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d4e6bb2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11b26693, org.springframework.security.web.session.SessionManagementFilter@602854ed, org.springframework.security.web.access.ExceptionTranslationFilter@1f3c3291, org.springframework.security.web.access.intercept.AuthorizationFilter@553d9329]
+2024-05-26 22:55:34,613 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-05-26 22:55:34,649 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-05-26 22:55:34,662 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 7.882 seconds (process running for 8.414)
+2024-05-26 22:55:38,441 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-26 22:55:38,441 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-05-26 22:55:38,442 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-05-26 22:55:38,568 INFO c.e.B.c.AuthController [http-nio-8080-exec-2] Authenticating user: asep1
+2024-05-26 22:55:38,569 INFO c.e.B.c.AuthController [http-nio-8080-exec-2] Authenticating user: 123
+2024-05-26 22:55:38,825 ERROR c.e.B.c.AuthController [http-nio-8080-exec-2] Authentication failed: Bad credentials
+2024-05-26 22:55:38,888 ERROR c.e.B.c.AuthController [http-nio-8080-exec-2] Authentication failed: Bad credentials
+2024-05-26 22:55:39,854 INFO c.e.B.c.AuthController [http-nio-8080-exec-4] Authenticating user: asep1
+2024-05-26 22:55:39,855 INFO c.e.B.c.AuthController [http-nio-8080-exec-4] Authenticating user: 123
+2024-05-26 22:55:39,918 ERROR c.e.B.c.AuthController [http-nio-8080-exec-4] Authentication failed: Bad credentials
+2024-05-26 22:55:39,981 ERROR c.e.B.c.AuthController [http-nio-8080-exec-4] Authentication failed: Bad credentials
+2024-05-26 22:56:24,108 INFO c.e.B.c.AuthController [http-nio-8080-exec-5] Authenticating user: null
+2024-05-26 22:56:24,109 INFO c.e.B.c.AuthController [http-nio-8080-exec-5] Authenticating user: 123
+2024-05-26 22:56:24,176 ERROR c.e.B.c.AuthController [http-nio-8080-exec-5] Authentication failed: Bad credentials
+2024-05-26 22:56:24,241 ERROR c.e.B.c.AuthController [http-nio-8080-exec-5] Authentication failed: Bad credentials

@@ -1,0 +1,78 @@
+2024-06-02 17:41:44,431 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s19ms859µs700ns).
+2024-06-02 17:42:20,373 INFO c.e.B.c.AuthController [http-nio-8080-exec-4] loginRequestDto: LoginRequestDTO(username=asep, password=123)
+2024-06-02 17:42:20,504 INFO c.e.B.c.AuthController [http-nio-8080-exec-4] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep, password=$2a$10$dMIIi4TEPDA38VAhWCUhsuPIupLvfHjWP62JtsmuvMR50urpEiRnq, authorities=[ROLE_USER]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_USER]]
+2024-06-02 17:42:53,706 INFO c.e.B.c.AuthController [http-nio-8080-exec-6] signUpRequest: SignUpRequestDTO(username=asep2, email=syihabupnyk@gmail.com, password=123, roles=[com.example.Binarfud.model.Role@37d115a4])
+2024-06-02 17:43:01,744 INFO c.e.B.c.AuthController [http-nio-8080-exec-7] loginRequestDto: LoginRequestDTO(username=asep2, password=123)
+2024-06-02 17:43:01,829 INFO c.e.B.c.AuthController [http-nio-8080-exec-7] authentication: UsernamePasswordAuthenticationToken [Principal=UserDetailsImpl(username=asep2, password=$2a$10$hTb1aGiJgzFqn1Avdh/7yet5.uprH8PUIjizjwQez32uP5YPDTFdW, authorities=[ROLE_USER]), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_USER]]
+2024-06-02 17:43:48,510 INFO c.e.B.s.UsersService [http-nio-8080-exec-9] User verification successful for email: syihabupnyk@gmail.com
+2024-06-02 17:59:45,867 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 17:59:46,026 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 17:59:46,068 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 17:59:54,413 INFO o.s.b.StartupInfoLogger [main] Starting BinarfudApplication using Java 17.0.2 with PID 7216 (D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch6\target\classes started by hp in D:\synrgy\sinau_java\F-BJV24001115-synrgy7-syi-binarfud-ch6)
+2024-06-02 17:59:54,417 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 17:59:56,067 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 17:59:56,251 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 159 ms. Found 7 JPA repository interfaces.
+2024-06-02 17:59:57,431 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-02 17:59:57,449 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 17:59:57,453 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-02 17:59:57,454 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 17:59:57,583 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 17:59:57,586 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3080 ms
+2024-06-02 17:59:57,829 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 17:59:57,959 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-02 17:59:58,031 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-06-02 17:59:58,446 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 17:59:58,489 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 18:00:02,447 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@edbc2bf
+2024-06-02 18:00:02,450 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 18:00:02,613 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-02 18:00:04,626 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 18:00:04,719 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,719 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] relation "order_detail" does not exist, skipping
+2024-06-02 18:00:04,756 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,756 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] relation "order_detail" does not exist, skipping
+2024-06-02 18:00:04,787 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,788 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] relation "orders" does not exist, skipping
+2024-06-02 18:00:04,818 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,820 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] relation "product" does not exist, skipping
+2024-06-02 18:00:04,850 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,855 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] relation "user_roles" does not exist, skipping
+2024-06-02 18:00:04,886 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,886 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] relation "user_roles" does not exist, skipping
+2024-06-02 18:00:04,924 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,924 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "merchant" does not exist, skipping
+2024-06-02 18:00:04,956 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,958 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "order_detail" does not exist, skipping
+2024-06-02 18:00:04,989 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:04,989 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "orders" does not exist, skipping
+2024-06-02 18:00:05,028 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:05,028 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "otp_tokens" does not exist, skipping
+2024-06-02 18:00:05,067 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:05,067 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "product" does not exist, skipping
+2024-06-02 18:00:05,098 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:05,098 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "roles" does not exist, skipping
+2024-06-02 18:00:05,139 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:05,143 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "user_roles" does not exist, skipping
+2024-06-02 18:00:05,186 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2024-06-02 18:00:05,186 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] table "users" does not exist, skipping
+2024-06-02 18:00:06,385 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 18:00:07,344 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-02 18:00:08,150 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 18:00:08,846 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@272600e1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c1b9de9, org.springframework.security.web.context.SecurityContextHolderFilter@644ae4ff, org.springframework.security.web.header.HeaderWriterFilter@6375af2a, org.springframework.web.filter.CorsFilter@125c1134, org.springframework.security.web.authentication.logout.LogoutFilter@6f14ce3, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4d652bc6, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@46791608, com.example.Binarfud.security.jwt.JwtAuthTokenFilter@299cddbf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6431ab21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ea4abef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a4ddaed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1992b8b, org.springframework.security.web.access.ExceptionTranslationFilter@62a9c857, org.springframework.security.web.access.intercept.AuthorizationFilter@1cd97ebe]
+2024-06-02 18:00:09,303 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 18:00:09,304 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/webjars/**']
+2024-06-02 18:00:09,304 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/images/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 18:00:09,305 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/images/**']
+2024-06-02 18:00:09,305 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 18:00:09,305 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/css/**']
+2024-06-02 18:00:09,305 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/assets/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 18:00:09,306 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/assets/**']
+2024-06-02 18:00:09,306 WARN o.s.s.c.a.w.b.WebSecurity [main] You are asking Spring Security to ignore Mvc [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-06-02 18:00:09,306 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will not secure Mvc [pattern='/favicon.ico']
+2024-06-02 18:00:09,366 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 18:00:09,395 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-02 18:00:09,409 INFO o.s.b.StartupInfoLogger [main] Started BinarfudApplication in 15.947 seconds (process running for 16.733)
+2024-06-02 18:00:49,318 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 18:00:49,320 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 18:00:49,320 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2024-06-02 18:00:49,777 INFO c.e.B.c.AuthController [http-nio-8080-exec-2] signUpRequest: SignUpRequestDTO(username=asep2, email=syihabupnyk@gmail.com, password=123, roles=[com.example.Binarfud.model.Role@7149b5db])
